@@ -421,29 +421,34 @@
       },
       {
         "name":"ampersand.before",
-        "lastModified":"2021-01-30 20:29:00",
+        "lastModified":"2021-02-03 03:13:53",
         "openTypeGlyphClass":1,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "colorFlag":121,
             "advanceWidth":1126,
             "elements":[
               {
@@ -455,7 +460,7 @@
                       "nodes":[
                         "1126 0 {n:'sv01'}",
                         "895 0",
-                        "807 109",
+                        "807 109 {n:'dv08'}",
                         "736 49 o",
                         "561 -14 o",
                         "459 -14 s {n:'dv01'}",
@@ -468,7 +473,7 @@
                         "97 547 o",
                         "165 640 o",
                         "254 711 o",
-                        "303 741",
+                        "303 741 {n:'dv05'}",
                         "281 772",
                         "225 841 o",
                         "170 983 o",
@@ -487,7 +492,7 @@
                         "795 906 o",
                         "712 819 o",
                         "605 751 o",
-                        "549 719"
+                        "549 719 {n:'dv06'}"
                       ]
                     },
                     {
@@ -500,8 +505,8 @@
                         "426 135 o",
                         "483 135 s {n:'dv02'}",
                         "613 135 o",
-                        "711 231",
-                        "393 629",
+                        "711 231 {n:'dv07'}",
+                        "393 629 {n:'iv01'}",
                         "359 606 o",
                         "302 554 o",
                         "261 492 o",
@@ -523,7 +528,7 @@
                         "350 1013 o",
                         "390 920 o",
                         "434 864 s",
-                        "461 829",
+                        "461 829 {n:'iv02'}",
                         "504 853 o",
                         "580 902 o",
                         "637 961 o",
@@ -639,9 +644,23 @@
             ],
             "color":"#fe4a46",
             "tth":[
-              "doublev dv01, dv02 .round",
-              "doublev dv03, dv04 .round",
+              "alignv dv01 round",
+              "alignv dv04 round",
               "singlev dv01, sv01 .none round",
+              "mdeltav dv04 17-17 8",
+              "mdeltav dv04 27-27 8",
+              "mdeltav dv04 33-34 8",
+              "mdeltav dv04 39-40 8",
+              "mdeltav dv04 42-42 8",
+              "mdeltav dv04 36-36 8",
+              "mdeltav dv04 30-30 8",
+              "mdeltav dv04 24-24 8",
+              "mdeltav dv04 14-14 8",
+              "mdeltav dv04 11-11 8",
+              "singlev dv01, dv02 .round",
+              "mdeltav dv02 20-20 8",
+              "singlev dv04, dv03 .round",
+              "mdeltav dv03 20-20 -8",
               "doubleh dh01, dh02 .round",
               "doubleh dh03, dh04 .round",
               "mdeltah dh02 9-21 -2",
@@ -9644,6 +9663,7 @@
           {
             "name":"Regular",
             "note":"Tilde incomplete",
+            "colorFlag":61,
             "advanceWidth":1126,
             "elements":[
               {
