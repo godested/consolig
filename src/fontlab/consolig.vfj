@@ -17570,37 +17570,33 @@
       },
       {
         "name":"less_asciitilde_asciitilde.liga",
-        "lastModified":"2021-02-12 04:17:58",
-        "lib":{
-          "note":"Less incomplete\nTilde complete"
-        },
-        "colorFlag":61,
+        "lastModified":"2021-02-13 22:04:23",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "note":"Less incomplete\nTilde complete",
-            "colorFlag":61,
+            "colorFlag":121,
             "advanceWidth":1126,
             "elements":[
               {
@@ -17611,7 +17607,7 @@
                       "id":"contour.159",
                       "nodes":[
                         "-1443.21 -16 {n:'av02'}",
-                        "-1334.21 94",
+                        "-1334.21 94 {n:'sv10'}",
                         "-1738.09 430.155 {n:'iv01'}",
                         "-1694.81 436.705  -1633.83 449.31  -1596.71 473.5 s",
                         "-1547.3 505.712  -1469.59 593  -1412.21 593 s {n:'dv02'}",
@@ -17635,7 +17631,7 @@
                         "-1105.67 501  -1188 753  -1406.21 753 s {n:'dv01'}",
                         "-1503.09 753  -1578.39 678.23  -1650.21 623 s",
                         "-1704.84 580.993  -1772.34 580.856  -1838.21 581 {n:'sv09'}",
-                        "-1334.21 995",
+                        "-1334.21 995 {n:'sv11'}",
                         "-1443.21 1106 {n:'av01'}",
                         "-2115.21 545"
                       ]
@@ -17716,19 +17712,20 @@
               "alignv sv08 round",
               "alignv sv01 round",
               "alignv dh02 round",
+              "singlev av02, sv10 .none",
               "mdeltav dv02 23-23 -8",
+              "mdeltav dv02 15-15 8",
+              "mdeltav dv02 29-29 8",
+              "mdeltav dv02 34-34 8",
               "mdeltav dv02 18-18 8",
               "mdeltav dv02 32-32 8",
-              "mdeltav dv02 34-34 8",
-              "mdeltav dv02 29-29 8",
-              "mdeltav dv02 15-15 8",
               "mdeltav dv02 20-20 -8",
               "mdeltav dv02 9-9 -8",
               "mdeltav sv01 28-28 -8",
               "mdeltav sv01 39-39 -8",
+              "mdeltav sv01 26-26 8",
               "mdeltav sv01 32-32 8",
               "mdeltav sv01 37-37 8",
-              "mdeltav sv01 26-26 8",
               "mdeltav sv01 33-33 -8",
               "mdeltav sv01 20-23 -8",
               "mdeltav sv01 9-9 -8",
@@ -17736,14 +17733,14 @@
               "singlev sv01, sv03 .none",
               "singlev dv02, sv04 .none",
               "singlev sv01, dv04 .none",
-              "mdeltav dh02 20-20 -8",
               "mdeltav dh02 25-25 -8",
+              "mdeltav dh02 31-31 -8",
               "mdeltav dh02 13-13 8",
               "mdeltav dh02 15-16 8",
               "mdeltav dh02 10-10 8",
-              "mdeltav dh02 23-23 -8",
               "mdeltav dh02 28-28 -8",
-              "mdeltav dh02 31-31 -8",
+              "mdeltav dh02 23-23 -8",
+              "mdeltav dh02 20-20 -8",
               "mdeltav sv08 28-28 -8",
               "mdeltav sv08 33-33 -8",
               "mdeltav sv08 10-10 8",
@@ -17757,19 +17754,25 @@
               "singlev dv01, sv05 .none",
               "singlev sv08, sv06 .none",
               "singlev dv01, sv07 .none",
+              "mdeltav av01 23-23 8",
+              "mdeltav av01 34-34 8",
+              "mdeltav av01 36-36 8",
+              "mdeltav av01 32-32 8",
+              "mdeltav av01 21-21 8",
+              "mdeltav av01 12-12 8",
+              "singlev av01, sv11 .none",
               "doubleh dh02, dh03 .round"
             ],
             "active":true
           }
-        ],
-        "note":"Less incomplete\nTilde complete"
+        ]
       },
       {
         "name":"less_asciitilde_greater.liga",
-        "lastModified":"2021-02-12 04:24:55",
+        "lastModified":"2021-02-13 22:06:34",
         "openTypeGlyphClass":2,
         "lib":{
-          "note":"Less incomplete\nTilde complete\nGreater incomplete"
+          "note":"Less complete\nTilde complete\nGreater incomplete"
         },
         "colorFlag":61,
         "layers":[
@@ -17796,7 +17799,7 @@
           },
           {
             "name":"Regular",
-            "note":"Less incomplete\nTilde complete\nGreater incomplete",
+            "note":"Less complete\nTilde complete\nGreater incomplete",
             "colorFlag":61,
             "advanceWidth":1126,
             "elements":[
@@ -17830,11 +17833,11 @@
                     },
                     {
                       "nodes":[
-                        "-1334 94",
+                        "-1334 94 {n:'sv06'}",
                         "-1443 -16 {n:'sh04'}",
                         "-2115 545",
                         "-1443 1106 {n:'sh05'}",
-                        "-1334 995",
+                        "-1334 995 {n:'sv05'}",
                         "-1879 547"
                       ]
                     },
@@ -17983,16 +17986,24 @@
               "mdeltav dv01 9-9 -8",
               "singlev dv03, sv01 .none",
               "singlev dv01, sv02 .none",
+              "mdeltav ah01 20-20 -8",
               "mdeltav ah01 25-25 -8",
-              "mdeltav ah01 31-31 -8",
-              "mdeltav ah01 13-13 8",
               "mdeltav ah01 15-16 8",
               "mdeltav ah01 10-10 8",
-              "mdeltav ah01 28-28 -8",
+              "mdeltav ah01 13-13 8",
               "mdeltav ah01 23-23 -8",
-              "mdeltav ah01 20-20 -8",
+              "mdeltav ah01 31-31 -8",
+              "mdeltav ah01 28-28 -8",
               "singlev dv02, sv03 .none",
               "singlev dv04, sv04 .none",
+              "singlev sh04, sv06 .none",
+              "mdeltav sh05 21-21 8",
+              "mdeltav sh05 32-32 8",
+              "mdeltav sh05 34-34 8",
+              "mdeltav sh05 23-23 8",
+              "mdeltav sh05 12-12 8",
+              "mdeltav sh05 36-36 8",
+              "singlev sh05, sv05 .none",
               "alignh lsb round",
               "alignh ah01 round",
               "singleh lsb, sh01 .none round",
@@ -18004,7 +18015,7 @@
             "active":true
           }
         ],
-        "note":"Less incomplete\nTilde complete\nGreater incomplete"
+        "note":"Less complete\nTilde complete\nGreater incomplete"
       },
       {
         "name":"less_asciitilde.liga",
