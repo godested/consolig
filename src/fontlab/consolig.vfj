@@ -17570,7 +17570,8 @@
       },
       {
         "name":"less_asciitilde_asciitilde.liga",
-        "lastModified":"2021-02-13 22:04:23",
+        "lastModified":"2021-02-15 23:04:53",
+        "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
           {
@@ -18019,38 +18020,34 @@
       },
       {
         "name":"less_asciitilde.liga",
-        "lastModified":"2021-02-12 04:31:37",
+        "lastModified":"2021-02-15 23:02:55",
         "openTypeGlyphClass":2,
-        "lib":{
-          "note":"Less incomplete\nTilde complete"
-        },
-        "colorFlag":61,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "note":"Less incomplete\nTilde complete",
-            "colorFlag":61,
+            "colorFlag":121,
             "advanceWidth":1126,
             "elements":[
               {
@@ -18061,7 +18058,7 @@
                       "id":"contour.161",
                       "nodes":[
                         "611.654 343.1 s {n:'dv04'}",
-                        "808.053 343.1  896.151 503.249  893.854 680.65 s {n:'dh03'}",
+                        "808.053 343.1  896.15 503.249  893.854 680.65 s {n:'dh03'}",
                         "893.654 696.1 {n:'dh01'}",
                         "733.654 696.1 {n:'dh02'}",
                         "733.654 615.85  723.154 501.1  617.654 501.1 s {n:'dv03'}",
@@ -18069,11 +18066,11 @@
                         "-44.4964 753.1  -137.046 511.55  -276.496 511.55 s {n:'sv01'}",
                         "-333.846 511.55  -421.601 598.843  -470.996 631.05 s",
                         "-508.101 655.243  -559.096 664.85  -602.396 671.4 {n:'iv01'}",
-                        "-208.496 994.55",
+                        "-208.496 994.55 {n:'sv04'}",
                         "-317.497 1105.55 {n:'av01'}",
-                        "-989.496 544.55",
+                        "-989.496 544.55 {n:'mv01'}",
                         "-317.497 -16.45 {n:'av02'}",
-                        "-208.496 93.55",
+                        "-208.496 93.55 {n:'sv05'}",
                         "-725.496 523.55 {n:'sv02'}",
                         "-659.646 523.7  -579.14 523.558  -524.496 481.55 s",
                         "-452.64 426.308  -367.397 351.55  -270.497 351.55 s {n:'sv03'}",
@@ -18177,6 +18174,7 @@
               "alignv dh02 round",
               "alignv av01 round",
               "alignv av02 round",
+              "alignv mv01 double",
               "mdeltav dv04 28-28 -8",
               "mdeltav dv04 39-39 -8",
               "mdeltav dv04 32-32 8",
@@ -18202,29 +18200,38 @@
               "mdeltav dv03 31-31 -8",
               "mdeltav dv03 23-23 -8",
               "mdeltav dv03 19-20 -8",
-              "singlev dv03, sv01 .none",
-              "singlev dv04, sv03 .none",
-              "mdeltav dv02 23-23 -8",
+              "singlev dv03, sv01 .round",
+              "singlev mv01, iv01 .none",
+              "mdeltav av01 23-23 8",
+              "mdeltav av01 34-34 8",
+              "mdeltav av01 36-36 8",
+              "mdeltav av01 32-32 8",
+              "mdeltav av01 21-21 8",
+              "mdeltav av01 12-12 8",
+              "singlev av01, sv04 .none",
+              "singlev av02, sv05 .none",
+              "singlev mv01, sv02 .none",
+              "singlev dv04, sv03 .round",
+              "mdeltav dv02 20-20 -8",
               "mdeltav dv02 18-18 8",
               "mdeltav dv02 32-32 8",
               "mdeltav dv02 34-34 8",
               "mdeltav dv02 29-29 8",
               "mdeltav dv02 15-15 8",
-              "mdeltav dv02 20-20 -8",
               "mdeltav dv02 9-9 -8",
+              "mdeltav dv02 23-23 -8",
               "doubleh dh02, dh03 .round"
             ],
             "active":true
           }
-        ],
-        "note":"Less incomplete\nTilde complete"
+        ]
       },
       {
         "name":"less_asterisk_greater.liga",
-        "lastModified":"2021-02-07 18:09:23",
+        "lastModified":"2021-02-15 23:01:53",
         "openTypeGlyphClass":2,
         "lib":{
-          "note":"Less incomplete\nAsterisk complete\nGreater incomplete"
+          "note":"Less complete\nAsterisk complete\nGreater incomplete"
         },
         "colorFlag":61,
         "layers":[
@@ -18251,7 +18258,7 @@
           },
           {
             "name":"Regular",
-            "note":"Less incomplete\nAsterisk complete\nGreater incomplete",
+            "note":"Less complete\nAsterisk complete\nGreater incomplete",
             "colorFlag":61,
             "advanceWidth":1126,
             "elements":[
@@ -18292,11 +18299,11 @@
                     },
                     {
                       "nodes":[
-                        "-1041 94",
-                        "-1150 -16",
+                        "-1041 94 {n:'sv02'}",
+                        "-1150 -16 {n:'av04'}",
                         "-1822 545",
-                        "-1150 1106",
-                        "-1041 995",
+                        "-1150 1106 {n:'av03'}",
+                        "-1041 995 {n:'sv01'}",
                         "-1586 547"
                       ]
                     }
@@ -18316,6 +18323,8 @@
             "tth":[
               "alignv av01 round",
               "alignv av02 round",
+              "alignv av03 round",
+              "alignv av04 round",
               "mdeltav av02 18-18 8",
               "mdeltav av02 42-42 8",
               "mdeltav av02 25-25 8",
@@ -18325,47 +18334,51 @@
               "mdeltav av01 30-30 8",
               "mdeltav av01 11-11 8",
               "mdeltav av01 37-37 -8",
-              "mdeltav av01 35-35 -8"
+              "mdeltav av01 35-35 -8",
+              "singlev av04, sv02 .none",
+              "mdeltav av03 23-23 8",
+              "mdeltav av03 34-34 8",
+              "mdeltav av03 36-36 8",
+              "mdeltav av03 32-32 8",
+              "mdeltav av03 21-21 8",
+              "mdeltav av03 12-12 8",
+              "singlev av03, sv01 .none"
             ],
             "active":true
           }
         ],
-        "note":"Less incomplete\nAsterisk complete\nGreater incomplete"
+        "note":"Less complete\nAsterisk complete\nGreater incomplete"
       },
       {
         "name":"less_asterisk.liga",
-        "lastModified":"2021-02-07 18:15:33",
+        "lastModified":"2021-02-15 23:04:24",
         "openTypeGlyphClass":2,
-        "lib":{
-          "note":"Less incomplete\nAsterisk complete"
-        },
-        "colorFlag":61,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "note":"Less incomplete\nAsterisk complete",
-            "colorFlag":61,
+            "colorFlag":121,
             "advanceWidth":1126,
             "elements":[
               {
@@ -18395,11 +18408,11 @@
                     },
                     {
                       "nodes":[
-                        "-78 94",
+                        "-78 94 {n:'sv02'}",
                         "-187 -16 {n:'av03'}",
                         "-859 545",
                         "-187 1106 {n:'av04'}",
-                        "-78 995",
+                        "-78 995 {n:'sv01'}",
                         "-623 547"
                       ]
                     }
@@ -18430,16 +18443,24 @@
               "mdeltav av01 30-30 8",
               "mdeltav av01 11-11 8",
               "mdeltav av01 37-37 -8",
-              "mdeltav av01 35-35 -8"
+              "mdeltav av01 35-35 -8",
+              "singlev av03, sv02 .none",
+              "mdeltav av04 23-23 8",
+              "mdeltav av04 34-34 8",
+              "mdeltav av04 36-36 8",
+              "mdeltav av04 32-32 8",
+              "mdeltav av04 21-21 8",
+              "mdeltav av04 12-12 8",
+              "singlev av04, sv01 .none"
             ],
             "active":true
           }
-        ],
-        "note":"Less incomplete\nAsterisk complete"
+        ]
       },
       {
         "name":"less_bar_bar_bar.liga",
-        "lastModified":"2021-02-07 18:43:56",
+        "lastModified":"2021-02-15 23:05:01",
+        "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
           {
@@ -18622,7 +18643,8 @@
       },
       {
         "name":"less_bar_bar.liga",
-        "lastModified":"2021-02-07 18:31:42",
+        "lastModified":"2021-02-15 23:05:04",
+        "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
           {
@@ -18745,29 +18767,38 @@
       },
       {
         "name":"less_bar_greater.liga",
-        "lastModified":"2021-01-30 16:28:56",
+        "lastModified":"2021-02-15 23:07:55",
         "openTypeGlyphClass":2,
+        "lib":{
+          "note":"Less complete\nBar complete\nGreater incomplete"
+        },
+        "colorFlag":61,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":61,
             "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":61,
             "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":61,
             "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "note":"Less complete\nBar complete\nGreater incomplete",
+            "colorFlag":61,
             "advanceWidth":1126,
             "elements":[
               {
@@ -18795,11 +18826,11 @@
                     },
                     {
                       "nodes":[
-                        "-945 94",
-                        "-1054 -16",
+                        "-945 94 {n:'sv02'}",
+                        "-1054 -16 {n:'av02'}",
                         "-1726 545",
-                        "-1054 1106",
-                        "-945 995",
+                        "-1054 1106 {n:'av01'}",
+                        "-945 995 {n:'sv01'}",
                         "-1490 547"
                       ]
                     }
@@ -18858,11 +18889,22 @@
             "tth":[
               "alignv av07 round",
               "alignv av03 round",
+              "alignv av01 round",
+              "alignv av02 round",
+              "singlev av02, sv02 .none",
+              "mdeltav av01 23-23 8",
+              "mdeltav av01 34-34 8",
+              "mdeltav av01 36-36 8",
+              "mdeltav av01 32-32 8",
+              "mdeltav av01 21-21 8",
+              "mdeltav av01 12-12 8",
+              "singlev av01, sv01 .none",
               "doubleh av03, sh01 .round"
             ],
             "active":true
           }
-        ]
+        ],
+        "note":"Less complete\nBar complete\nGreater incomplete"
       },
       {
         "name":"less_bar.liga",
@@ -18955,29 +18997,38 @@
       },
       {
         "name":"less_dollar_greater.liga",
-        "lastModified":"2021-01-30 16:28:56",
+        "lastModified":"2021-02-15 23:10:22",
         "openTypeGlyphClass":2,
+        "lib":{
+          "note":"Less complete\nDollar incomplete\nGreater incomplete"
+        },
+        "colorFlag":61,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":61,
             "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":61,
             "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":61,
             "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "note":"Less complete\nDollar incomplete\nGreater incomplete",
+            "colorFlag":61,
             "advanceWidth":1126,
             "elements":[
               {
@@ -19003,10 +19054,10 @@
                         "-763.85 1294.4  -1005 1197.35  -1005 956 s {n:'sh01'}",
                         "-1005 749.65  -817.3 669.2  -653 606",
                         "-712 156 {n:'dv02'}",
-                        "-1300.07 167.201",
+                        "-1300.07 167.201 {n:'sv06'}",
                         "-1757 547",
-                        "-1212 995",
-                        "-1321 1106",
+                        "-1212 995 {n:'sv05'}",
+                        "-1321 1106 {n:'av04'}",
                         "-1993 545",
                         "-1342 2 {n:'av03'}",
                         "-733 2 {n:'dv01'}",
@@ -19163,9 +19214,18 @@
               "alignv av02 round",
               "alignv av03 round",
               "alignv sv02 round",
+              "alignv av04 round",
               "doublev dv01, dv02 .round",
               "doublev dv03, dv04 .round",
               "singlev dv04, sv01 .none round",
+              "singlev av03, sv06 .none",
+              "mdeltav av04 23-23 8",
+              "mdeltav av04 34-34 8",
+              "mdeltav av04 36-36 8",
+              "mdeltav av04 32-32 8",
+              "mdeltav av04 21-21 8",
+              "mdeltav av04 12-12 8",
+              "singlev av04, sv05 .none",
               "singlev dv03, sv03 .none round",
               "singlev dv02, sv04 .none",
               "alignh lsb round",
@@ -19180,33 +19240,43 @@
             ],
             "active":true
           }
-        ]
+        ],
+        "note":"Less complete\nDollar incomplete\nGreater incomplete"
       },
       {
         "name":"less_dollar_greater.liga.ss04",
-        "lastModified":"2021-01-30 16:28:56",
+        "lastModified":"2021-02-15 23:11:00",
         "openTypeGlyphClass":2,
+        "lib":{
+          "note":"Less complete\nDollar incomplete\nGreater incomplete"
+        },
+        "colorFlag":61,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":61,
             "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":61,
             "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":61,
             "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "note":"Less complete\nDollar incomplete\nGreater incomplete",
+            "colorFlag":61,
             "advanceWidth":1126,
             "elements":[
               {
@@ -19217,8 +19287,8 @@
                       "id":"contour.175",
                       "nodes":[
                         "-1757 547",
-                        "-1212 995",
-                        "-1321 1106",
+                        "-1212 995 {n:'sv05'}",
+                        "-1321 1106 {n:'av04'}",
                         "-1993 545",
                         "-1342 2 {n:'av03'}",
                         "-733 2 {n:'dv01'}",
@@ -19247,7 +19317,7 @@
                         "-423.4 515.4  -309 468.5  -309 352 s {n:'ah01'}",
                         "-309 202.8  -443.85 165.1  -567 156 {n:'sv04'}",
                         "-712 156 {n:'dv02'}",
-                        "-1300.05 167.2"
+                        "-1300.05 167.2 {n:'sv06'}"
                       ]
                     }
                   ]
@@ -19399,9 +19469,18 @@
               "alignv av02 round",
               "alignv av03 round",
               "alignv sv02 round",
+              "alignv av04 round",
               "doublev dv01, dv02 .round",
               "doublev dv03, dv04 .round",
+              "mdeltav av04 23-23 8",
+              "mdeltav av04 34-34 8",
+              "mdeltav av04 36-36 8",
+              "mdeltav av04 32-32 8",
+              "mdeltav av04 21-21 8",
+              "mdeltav av04 12-12 8",
+              "singlev av04, sv05 .none",
               "singlev dv04, sv01 .none round",
+              "singlev av03, sv06 .none",
               "alignh lsb round",
               "alignh ah01 round",
               "mdeltah ah01 22-23 3",
@@ -19414,33 +19493,43 @@
             ],
             "active":true
           }
-        ]
+        ],
+        "note":"Less complete\nDollar incomplete\nGreater incomplete"
       },
       {
         "name":"less_dollar.liga",
-        "lastModified":"2021-01-30 16:28:56",
+        "lastModified":"2021-02-15 23:12:17",
         "openTypeGlyphClass":2,
+        "lib":{
+          "note":"Less complete\nDollar incomplete"
+        },
+        "colorFlag":61,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":61,
             "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":61,
             "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":61,
             "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "note":"Less complete\nDollar incomplete",
+            "colorFlag":61,
             "advanceWidth":1126,
             "elements":[
               {
@@ -19482,10 +19571,10 @@
                         "287 631 o",
                         "352 606",
                         "293 156 {n:'dv02'}",
-                        "-296.069 167.203",
+                        "-296.069 167.203 {n:'sv03'}",
                         "-753 547",
-                        "-208 995",
-                        "-317 1106",
+                        "-208 995 {n:'sv02'}",
+                        "-317 1106 {n:'av05'}",
                         "-989 545",
                         "-338 2 {n:'av03'}",
                         "272 2 {n:'dv01'}",
@@ -19632,7 +19721,16 @@
               "alignv av02 round",
               "alignv av03 round",
               "alignv av04 round",
+              "alignv av05 round",
               "doublev dv01, dv02 .round",
+              "singlev av03, sv03 .none",
+              "mdeltav av05 23-23 8",
+              "mdeltav av05 34-34 8",
+              "mdeltav av05 36-36 8",
+              "mdeltav av05 32-32 8",
+              "mdeltav av05 21-21 8",
+              "mdeltav av05 12-12 8",
+              "singlev av05, sv02 .none",
               "singlev dv02, sv01 .none",
               "alignh lsb round",
               "alignh ah01 round",
@@ -19646,33 +19744,43 @@
             ],
             "active":true
           }
-        ]
+        ],
+        "note":"Less complete\nDollar incomplete"
       },
       {
         "name":"less_dollar.liga.ss04",
-        "lastModified":"2021-01-30 16:28:56",
+        "lastModified":"2021-02-15 23:12:15",
         "openTypeGlyphClass":2,
+        "lib":{
+          "note":"Less complete\nDollar incomplete"
+        },
+        "colorFlag":61,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":61,
             "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":61,
             "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":61,
             "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "note":"Less complete\nDollar incomplete",
+            "colorFlag":61,
             "advanceWidth":1126,
             "elements":[
               {
@@ -19683,8 +19791,8 @@
                       "id":"contour.179",
                       "nodes":[
                         "-753 547",
-                        "-208 995",
-                        "-317 1106",
+                        "-208 995 {n:'sv02'}",
+                        "-317 1106 {n:'av05'}",
                         "-989 545",
                         "-338 2 {n:'av03'}",
                         "272 2 {n:'dv01'}",
@@ -19739,7 +19847,7 @@
                         "573 166 o",
                         "438 156",
                         "293 156 {n:'dv02'}",
-                        "-296.05 167.2"
+                        "-296.05 167.2 {n:'sv03'}"
                       ]
                     }
                   ]
@@ -19871,9 +19979,18 @@
               "alignv av02 round",
               "alignv av03 round",
               "alignv av04 round",
+              "alignv av05 round",
               "doublev dv01, dv02 .round",
               "doublev dv03, dv04 .round",
+              "mdeltav av05 23-23 8",
+              "mdeltav av05 34-34 8",
+              "mdeltav av05 36-36 8",
+              "mdeltav av05 32-32 8",
+              "mdeltav av05 21-21 8",
+              "mdeltav av05 12-12 8",
+              "singlev av05, sv02 .none",
               "singlev dv04, sv01 .none round",
+              "singlev av03, sv03 .none",
               "alignh lsb round",
               "alignh ah01 round",
               "mdeltah ah01 22-23 3",
@@ -19886,42 +20003,39 @@
             ],
             "active":true
           }
-        ]
+        ],
+        "note":"Less complete\nDollar incomplete"
       },
       {
         "name":"less_equal_end.seq",
-        "lastModified":"2021-02-11 02:23:36",
+        "lastModified":"2021-02-15 23:17:05",
         "openTypeGlyphClass":1,
-        "lib":{
-          "note":"Equal complete\nGreater incomplete"
-        },
-        "colorFlag":61,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "note":"Equal complete\nGreater incomplete",
-            "colorFlag":61,
+            "colorFlag":121,
             "advanceWidth":1126,
             "elements":[
               {
@@ -19936,7 +20050,7 @@
                         "-20 793 {n:'av03'}",
                         "434 793 {n:'dv04'}",
                         "809 1106 {n:'av02'}",
-                        "918 995"
+                        "918 995 {n:'sv01'}"
                       ]
                     },
                     {
@@ -19946,7 +20060,7 @@
                         "-20 298 {n:'av06'}",
                         "-20 445 {n:'av05'}",
                         "495 445 {n:'dv02'}",
-                        "918 94",
+                        "918 94 {n:'sv02'}",
                         "809 -16 {n:'av01'}"
                       ]
                     }
@@ -20014,6 +20128,13 @@
               "mdeltav av03 9-9 8",
               "mdeltav av03 30-30 -8",
               "mdeltav av03 17-17 -8",
+              "mdeltav av02 23-23 8",
+              "mdeltav av02 34-34 8",
+              "mdeltav av02 36-36 8",
+              "mdeltav av02 32-32 8",
+              "mdeltav av02 21-21 8",
+              "mdeltav av02 12-12 8",
+              "singlev av02, sv01 .none",
               "mdeltav av06 26-26 -8",
               "mdeltav av06 38-39 -8",
               "mdeltav av06 34-34 8",
@@ -20027,47 +20148,43 @@
               "mdeltav av05 24-25 8",
               "mdeltav av05 36-36 -8",
               "mdeltav av05 26-26 -8",
-              "mdeltav av05 17-17 -8"
+              "mdeltav av05 17-17 -8",
+              "singlev av01, sv02 .none"
             ],
             "active":true
           }
-        ],
-        "note":"Equal complete\nGreater incomplete"
+        ]
       },
       {
         "name":"less_equal_middle.seq",
-        "lastModified":"2021-02-11 02:30:29",
+        "lastModified":"2021-02-15 23:20:04",
         "openTypeGlyphClass":1,
-        "lib":{
-          "note":"Equal complete\nLess incomplete"
-        },
-        "colorFlag":61,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "note":"Equal complete\nLess incomplete",
-            "colorFlag":61,
+            "colorFlag":121,
             "advanceWidth":1126,
             "elements":[
               {
@@ -20081,24 +20198,24 @@
                         "1146 298 {n:'av05'}",
                         "1146 445 {n:'av04'}",
                         "495.715 445 {n:'dv02'}",
-                        "373 547",
+                        "373 547 {n:'iv02'}",
                         "493.435 646 {n:'dv03'}",
                         "1146 646 {n:'av01'}",
                         "1146 793 {n:'sv02'}",
                         "672.263 793 {n:'sv05'}",
-                        "918 995",
+                        "918 995 {n:'sv07'}",
                         "809 1106 {n:'av02'}",
                         "434.07 793 {n:'dv04'}",
                         "-20 793",
                         "-20 646 {n:'sv03'}",
                         "257.984 646 {n:'sv06'}",
-                        "137 545",
+                        "137 545 {n:'iv01'}",
                         "256.786 445 {n:'sv04'}",
                         "-20 445",
                         "-20 298",
                         "432.872 298 {n:'dv01'}",
                         "809 -16 {n:'av03'}",
-                        "918 94"
+                        "918 94 {n:'sv08'}"
                       ]
                     }
                   ]
@@ -20179,50 +20296,53 @@
               "mdeltav sv05 9-9 8",
               "mdeltav sv05 30-30 -8",
               "mdeltav sv05 17-17 -8",
+              "mdeltav av02 23-23 8",
+              "mdeltav av02 34-34 8",
+              "mdeltav av02 36-36 8",
+              "mdeltav av02 32-32 8",
+              "mdeltav av02 21-21 8",
+              "mdeltav av02 12-12 8",
+              "singlev av02, sv07 .none",
               "singlev sv05, dv04 .none",
               "singlev dv03, sv06 .none",
               "singlev dv02, sv04 .none",
-              "singlev sv01, dv01 .none"
+              "singlev sv01, dv01 .none",
+              "singlev av03, sv08 .none"
             ],
             "active":true
           }
-        ],
-        "note":"Equal complete\nLess incomplete"
+        ]
       },
       {
         "name":"less_equal_start.seq",
-        "lastModified":"2021-02-11 02:34:55",
+        "lastModified":"2021-02-15 23:32:57",
         "openTypeGlyphClass":1,
-        "lib":{
-          "note":"Less incomplete\nEqual complete"
-        },
-        "colorFlag":61,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "note":"Less incomplete\nEqual complete",
-            "colorFlag":61,
+            "colorFlag":121,
             "advanceWidth":1126,
             "elements":[
               {
@@ -20236,16 +20356,16 @@
                         "1146 298 {n:'av04'}",
                         "1146 445 {n:'av03'}",
                         "495.715 445 {n:'dv02'}",
-                        "373 547",
+                        "373 547 {n:'iv01'}",
                         "493.435 646 {n:'dv03'}",
                         "1146 646 {n:'av02'}",
                         "1146 793 {n:'av01'}",
                         "672.263 793 {n:'dv04'}",
-                        "918 995",
+                        "918 995 {n:'sv01'}",
                         "809 1106 {n:'av05'}",
-                        "137 545",
+                        "137 545 {n:'sv03'}",
                         "809 -16 {n:'av06'}",
-                        "918 94"
+                        "918 94 {n:'sv02'}"
                       ]
                     }
                   ]
@@ -20317,6 +20437,7 @@
               "mdeltav av03 36-36 -8",
               "mdeltav av03 26-26 -8",
               "mdeltav av03 17-17 -8",
+              "interpolatev iv01 av02, av03",
               "mdeltav av01 33-33 -8",
               "mdeltav av01 21-21 8",
               "mdeltav av01 27-27 8",
@@ -20325,12 +20446,20 @@
               "mdeltav av01 24-24 8",
               "mdeltav av01 9-9 8",
               "mdeltav av01 30-30 -8",
-              "mdeltav av01 17-17 -8"
+              "mdeltav av01 17-17 -8",
+              "mdeltav av05 23-23 8",
+              "mdeltav av05 34-34 8",
+              "mdeltav av05 36-36 8",
+              "mdeltav av05 32-32 8",
+              "mdeltav av05 21-21 8",
+              "mdeltav av05 12-12 8",
+              "singlev av05, sv01 .none",
+              "singlev iv01, sv03 .none",
+              "singlev av06, sv02 .none"
             ],
             "active":true
           }
-        ],
-        "note":"Less incomplete\nEqual complete"
+        ]
       },
       {
         "name":"less_equal.liga",
@@ -20477,10 +20606,10 @@
       },
       {
         "name":"less_exclam_hyphen_hyphen.liga",
-        "lastModified":"2021-02-12 02:35:14",
+        "lastModified":"2021-02-15 23:41:06",
         "openTypeGlyphClass":2,
         "lib":{
-          "note":"Less incomplete\nExclam incomplete\nHyphen complete"
+          "note":"Less complete\nExclam incomplete\nHyphen complete"
         },
         "colorFlag":61,
         "layers":[
@@ -20507,7 +20636,7 @@
           },
           {
             "name":"Regular",
-            "note":"Less incomplete\nExclam incomplete\nHyphen complete",
+            "note":"Less complete\nExclam incomplete\nHyphen complete",
             "colorFlag":61,
             "advanceWidth":1126,
             "elements":[
@@ -20554,11 +20683,11 @@
                       "nodes":[
                         "-2042 463 {n:'dv01'}",
                         "-2904 463",
-                        "-2460 94",
+                        "-2460 94 {n:'sv05'}",
                         "-2569 -16 {n:'av03'}",
-                        "-3241 545",
+                        "-3241 545 {n:'iv01'}",
                         "-2569 1106 {n:'av04'}",
-                        "-2460 995",
+                        "-2460 995 {n:'sv04'}",
                         "-2908 627",
                         "-2042 627 {n:'dv02'}"
                       ]
@@ -20635,6 +20764,13 @@
               "alignv dv02 round",
               "alignv dv01 round",
               "alignv av04 round",
+              "mdeltav av04 23-23 8",
+              "mdeltav av04 34-34 8",
+              "mdeltav av04 36-36 8",
+              "mdeltav av04 32-32 8",
+              "mdeltav av04 21-21 8",
+              "mdeltav av04 12-12 8",
+              "singlev av04, sv04 .none",
               "mdeltav dv02 28-28 -8",
               "mdeltav dv02 41-41 -8",
               "mdeltav dv02 20-21 8",
@@ -20642,38 +20778,44 @@
               "mdeltav dv02 18-19 -8",
               "mdeltav dv02 15-15 -8",
               "singlev dv01, sv03 .none",
-              "singlev dv02, sv02 .none"
+              "singlev dv02, sv02 .none",
+              "interpolatev iv01 dv02, dv01"
             ],
             "active":true
           }
         ],
-        "note":"Less incomplete\nExclam incomplete\nHyphen complete"
+        "note":"Less complete\nExclam incomplete\nHyphen complete"
       },
       {
         "name":"less_greater.liga",
-        "lastModified":"2021-01-30 21:48:12",
+        "lastModified":"2021-02-15 23:38:44",
         "openTypeGlyphClass":2,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "colorFlag":121,
             "advanceWidth":1126,
             "elements":[
               {
@@ -20681,18 +20823,18 @@
                   "contours":[
                     {
                       "nodes":[
-                        "-690 547",
-                        "-60 914.35",
-                        "572 543",
-                        "-60 173.35"
+                        "-690 547 {n:'sv01'}",
+                        "-60 914.35 {n:'sv04'}",
+                        "572 543 {n:'sv02'}",
+                        "-60 173.35 {n:'sv03'}"
                       ]
                     },
                     {
                       "nodes":[
-                        "869 545",
-                        "-60 1090",
-                        "-989 545",
-                        "-60 0"
+                        "869 545 {n:'av03'}",
+                        "-60 1090 {n:'av02'}",
+                        "-989 545 {n:'av01'}",
+                        "-60 0 {n:'av04'}"
                       ]
                     }
                   ]
@@ -20701,44 +20843,46 @@
               }
             ],
             "color":"#fe4a46",
+            "tth":[
+              "alignv av02 round",
+              "alignv av04 round",
+              "singlev av02, sv04 .none",
+              "singlev av04, sv03 .none"
+            ],
             "active":true
           }
         ]
       },
       {
         "name":"less_hyphen_end.seq",
-        "lastModified":"2021-02-12 02:37:58",
+        "lastModified":"2021-02-15 23:47:35",
         "openTypeGlyphClass":1,
-        "lib":{
-          "note":"Hyphen complete\nLess incomplete"
-        },
-        "colorFlag":61,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "note":"Hyphen complete\nLess incomplete",
-            "colorFlag":61,
+            "colorFlag":121,
             "advanceWidth":1126,
             "elements":[
               {
@@ -20748,15 +20892,15 @@
                     {
                       "id":"contour.188",
                       "nodes":[
-                        "373 547",
-                        "918 995",
+                        "373 547 {n:'iv02'}",
+                        "918 995 {n:'sv01'}",
                         "809 1106 {n:'av01'}",
-                        "235.225 627",
+                        "235.225 627 {n:'iv01'}",
                         "-20 627 {n:'dv02'}",
                         "-20 463 {n:'dv01'}",
-                        "235.225 463",
+                        "235.225 463 {n:'iv03'}",
                         "809 -16 {n:'av02'}",
-                        "918 94"
+                        "918 94 {n:'sv02'}"
                       ]
                     }
                   ]
@@ -20792,52 +20936,58 @@
               "alignv dv01 round",
               "alignv av01 round",
               "alignv av02 round",
+              "alignv iv01 round",
+              "alignv iv03 round",
+              "interpolatev iv02 iv01, iv03",
+              "mdeltav av01 23-23 8",
+              "mdeltav av01 34-34 8",
+              "mdeltav av01 36-36 8",
+              "mdeltav av01 32-32 8",
+              "mdeltav av01 21-21 8",
+              "mdeltav av01 12-12 8",
+              "singlev av01, sv01 .none",
               "mdeltav dv02 28-28 -8",
               "mdeltav dv02 41-41 -8",
               "mdeltav dv02 20-21 8",
               "mdeltav dv02 32-33 -8",
               "mdeltav dv02 18-19 -8",
-              "mdeltav dv02 15-15 -8"
+              "mdeltav dv02 15-15 -8",
+              "singlev av02, sv02 .none"
             ],
             "active":true
           }
-        ],
-        "note":"Hyphen complete\nLess incomplete"
+        ]
       },
       {
         "name":"less_hyphen_middle.seq",
-        "lastModified":"2021-02-12 02:40:13",
+        "lastModified":"2021-02-15 23:48:38",
         "openTypeGlyphClass":1,
-        "lib":{
-          "note":"Hyphen complete\nLess incomplete"
-        },
-        "colorFlag":61,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "note":"Hyphen complete\nLess incomplete",
-            "colorFlag":61,
+            "colorFlag":121,
             "advanceWidth":1126,
             "elements":[
               {
@@ -20851,14 +21001,14 @@
                         "1146 463",
                         "1146 627",
                         "470.321 627 {n:'dv02'}",
-                        "918 995",
+                        "918 995 {n:'sv04'}",
                         "809 1106 {n:'av02'}",
                         "235.225 627 {n:'sv01'}",
                         "-20 627",
                         "-20 463 {n:'sv02'}",
                         "235.225 463 {n:'sv03'}",
                         "809 -16 {n:'av01'}",
-                        "918 94"
+                        "918 94 {n:'sv05'}"
                       ]
                     }
                   ]
@@ -20900,48 +21050,51 @@
               "mdeltav dv02 32-33 -8",
               "mdeltav dv02 18-19 -8",
               "mdeltav dv02 15-15 -8",
+              "mdeltav av02 23-23 8",
+              "mdeltav av02 34-34 8",
+              "mdeltav av02 36-36 8",
+              "mdeltav av02 32-32 8",
+              "mdeltav av02 21-21 8",
+              "mdeltav av02 12-12 8",
+              "singlev av02, sv04 .none",
               "singlev dv02, sv01 .none",
-              "singlev dv01, sv03 .none"
+              "singlev dv01, sv03 .none",
+              "singlev av01, sv05 .none"
             ],
             "active":true
           }
-        ],
-        "note":"Hyphen complete\nLess incomplete"
+        ]
       },
       {
         "name":"less_hyphen_start.seq",
-        "lastModified":"2021-02-12 02:42:02",
+        "lastModified":"2021-02-15 23:51:23",
         "openTypeGlyphClass":1,
-        "lib":{
-          "note":"Less incomplete\nHyphen complete"
-        },
-        "colorFlag":61,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "note":"Less incomplete\nHyphen complete",
-            "colorFlag":61,
+            "colorFlag":121,
             "advanceWidth":1126,
             "elements":[
               {
@@ -20955,11 +21108,11 @@
                         "1146 463 {n:'av01'}",
                         "1146 627 {n:'av02'}",
                         "470.321 627 {n:'dv02'}",
-                        "918 995",
+                        "918 995 {n:'sv01'}",
                         "809 1106 {n:'av03'}",
-                        "137 545",
+                        "137 545 {n:'iv01'}",
                         "809 -16 {n:'av04'}",
-                        "918 94"
+                        "918 94 {n:'sv02'}"
                       ]
                     }
                   ]
@@ -21000,12 +21153,20 @@
               "mdeltav av02 20-21 8",
               "mdeltav av02 32-33 -8",
               "mdeltav av02 18-19 -8",
-              "mdeltav av02 15-15 -8"
+              "mdeltav av02 15-15 -8",
+              "mdeltav av03 23-23 8",
+              "mdeltav av03 34-34 8",
+              "mdeltav av03 36-36 8",
+              "mdeltav av03 32-32 8",
+              "mdeltav av03 21-21 8",
+              "mdeltav av03 12-12 8",
+              "singlev av03, sv01 .none",
+              "interpolatev iv01 av02, av01",
+              "singlev av04, sv02 .none"
             ],
             "active":true
           }
-        ],
-        "note":"Less incomplete\nHyphen complete"
+        ]
       },
       {
         "name":"less_less_equal_end.seq",
