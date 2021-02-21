@@ -9032,38 +9032,34 @@
       },
       {
         "name":"dollar_greater.liga.ss04",
-        "lastModified":"2021-02-16 01:47:16",
+        "lastModified":"2021-02-21 20:32:28",
         "openTypeGlyphClass":2,
-        "lib":{
-          "note":"Dollar incomplete\nGreater complete"
-        },
-        "colorFlag":61,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "note":"Dollar incomplete\nGreater complete",
-            "colorFlag":61,
+            "colorFlag":121,
             "advanceWidth":1126,
             "elements":[
               {
@@ -9071,31 +9067,65 @@
                 "elementData":{
                   "contours":[
                     {
-                      "id":"contour.86",
                       "nodes":[
-                        "-893 211 {n:'iv01'}",
-                        "-893 45",
-                        "-801.273 21.2294  -705.377 8.9897  -611 2 {n:'dv01'}",
-                        "-644 -236 {n:'av01'}",
+                        "-437 1305 {n:'av03'}",
+                        "-553 1299 o",
+                        "-721 1236 o",
+                        "-831 1139 o",
+                        "-883 1018 o",
+                        "-883 956 s {n:'sv02'}",
+                        "-883 880 o",
+                        "-821 770 o",
+                        "-722 689 o",
+                        "-595.649 631.954 o",
+                        "-531 606 s {n:'sv01'}",
+                        "-394 551 s {n:'dv03'}",
+                        "-342.302 530.245 o",
+                        "-265 491 o",
+                        "-213 445 o",
+                        "-187 388 o",
+                        "-187 352 s {n:'iv02'}",
+                        "-187 266 o",
+                        "-310 166 o",
+                        "-445 156 {n:'iv03'}",
+                        "-590 156 {n:'dv05'}",
+                        "-681 161 o",
+                        "-830 189 o",
+                        "-893 211 {n:'dv07'}",
+                        "-893 45 {n:'dv08'}",
+                        "-839 31 o",
+                        "-692 8 o",
+                        "-611 2 {n:'dv06'}",
+                        "-644 -236 {n:'av08'}",
                         "-498 -236",
-                        "-465 2 {n:'sv01'}",
-                        "-245.304 12.6568  0 102.724  0 362 s {n:'sh02'}",
-                        "0 769.964  -697 693.453  -697 975 s {n:'sh03'}",
-                        "-697 1098.62  -564.287 1155  -457 1155 s {n:'dv03'}",
-                        "-298.518 1155  -140.028 1152.33  18.5 1153 {n:'sv02'}",
-                        "754 543 {n:'sv05'}",
-                        "209 94 {n:'sv04'}",
-                        "317 -16 {n:'av03'}",
-                        "989 545 {n:'av04'}",
-                        "85.8 1299",
-                        "-293 1300 {n:'dv04'}",
-                        "-267 1495 {n:'av02'}",
-                        "-412 1495",
-                        "-437 1305 {n:'sv03'}",
-                        "-641.888 1294.42  -883 1197.32  -883 956 s {n:'sh01'}",
-                        "-883 555.511  -187 628.443  -187 352 s {n:'ah01'}",
-                        "-187 140.18  -446.978 156  -590 156 s {n:'dv02'}",
-                        "-688.516 156  -800.213 178.602 c"
+                        "-465 2 {n:'dv04'}",
+                        "-362 7 o",
+                        "-190 58 o",
+                        "-68 148 o",
+                        "0 278 o",
+                        "0 362 s {n:'sv03'}",
+                        "0 441 o",
+                        "-65 555 o",
+                        "-170 638 o",
+                        "-302.151 698.549 o",
+                        "-369 725 s {n:'av02'}",
+                        "-508 780 s {n:'av01'}",
+                        "-601.942 817.171 o",
+                        "-697 906 o",
+                        "-697 975 s {n:'iv01'}",
+                        "-697 1049 o",
+                        "-582 1144 o",
+                        "-457 1155 {n:'dv02'}",
+                        "-312 1153 {n:'av07'}",
+                        "18.5 1153 {n:'dv01'}",
+                        "754 543 {n:'n50'}",
+                        "209 94 {n:'n51'}",
+                        "317 -16 {n:'n52'}",
+                        "989 545 {n:'n53'}",
+                        "85.8 1299 {n:'av06'}",
+                        "-293 1300 {n:'av05'}",
+                        "-267 1495",
+                        "-412 1495 {n:'av04'}"
                       ]
                     }
                   ]
@@ -9106,40 +9136,63 @@
             "hints":[
               {
                 "vertical":true,
-                "node0":{
-                  "nodeNode":{
-                    "point":"-883 956",
-                    "contour":"contour.86",
-                    "index":31,
-                    "element":"element.44"
-                  }
-                },
-                "thickness":186,
+                "position":-883,
+                "thickness":449,
                 "nodeThickness":{
                   "nodeNode":{
-                    "point":"-697 975",
-                    "contour":"contour.86",
-                    "index":13,
+                    "point":"-434 1153",
+                    "contour":{
+                      "id":"contour.86",
+                      "nodes":[
+                        "-434 1153 {n:'dv03'}",
+                        "18.5 1153 {n:'sv02'}",
+                        "754 543 {n:'sv05'}",
+                        "209 94 {n:'sv04'}",
+                        "317 -16 {n:'av03'}",
+                        "989 545 {n:'av04'}",
+                        "85.8 1299",
+                        "-415 1300 {n:'dv04'}"
+                      ]
+                    },
+                    "index":0,
                     "element":"element.44"
                   }
                 }
               },
               {
                 "vertical":true,
+                "position":-187,
+                "thickness":-247,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-434 1153",
+                    "contour":"contour.86",
+                    "index":0,
+                    "element":"element.44"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "position":2,
+                "thickness":154
+              },
+              {
+                "horizontal":true,
                 "node0":{
                   "nodeNode":{
-                    "point":"-187 352",
+                    "point":"-434 1153",
                     "contour":"contour.86",
-                    "index":34,
+                    "index":0,
                     "element":"element.44"
                   }
                 },
-                "thickness":187,
+                "thickness":147,
                 "nodeThickness":{
                   "nodeNode":{
-                    "point":"0 362",
+                    "point":"-415 1300",
                     "contour":"contour.86",
-                    "index":10,
+                    "index":7,
                     "element":"element.44"
                   }
                 }
@@ -9148,128 +9201,122 @@
                 "horizontal":true,
                 "node0":{
                   "nodeNode":{
-                    "point":"-611 2",
+                    "point":"-434 1153",
                     "contour":"contour.86",
-                    "index":4,
+                    "index":0,
                     "element":"element.44"
                   }
                 },
-                "thickness":154,
-                "nodeThickness":{
-                  "nodeNode":{
-                    "point":"-590 156",
-                    "contour":"contour.86",
-                    "index":37,
-                    "element":"element.44"
-                  }
-                }
+                "thickness":152
               },
               {
                 "horizontal":true,
-                "node0":{
-                  "nodeNode":{
-                    "point":"-457 1155",
-                    "contour":"contour.86",
-                    "index":16,
-                    "element":"element.44"
-                  }
-                },
-                "thickness":145,
-                "nodeThickness":{
-                  "nodeNode":{
-                    "point":"-293 1300",
-                    "contour":"contour.86",
-                    "index":25,
-                    "element":"element.44"
-                  }
-                }
-              },
-              {
-                "horizontal":true,
-                "node0":{
-                  "nodeNode":{
-                    "point":"-457 1155",
-                    "contour":"contour.86",
-                    "index":16,
-                    "element":"element.44"
-                  }
-                },
-                "thickness":150,
-                "nodeThickness":{
-                  "nodeNode":{
-                    "point":"-437 1305",
-                    "contour":"contour.86",
-                    "index":28,
-                    "element":"element.44"
-                  }
-                }
-              },
-              {
-                "horizontal":true,
-                "node0":{
-                  "nodeNode":{
-                    "point":"-644 -236",
-                    "contour":"contour.86",
-                    "index":5,
-                    "element":"element.44"
-                  }
-                },
+                "position":-236,
                 "thickness":21
               },
               {
                 "horizontal":true,
-                "node0":{
-                  "nodeNode":{
-                    "point":"-267 1495",
-                    "contour":"contour.86",
-                    "index":26,
-                    "element":"element.44"
-                  }
-                },
+                "position":1495,
                 "thickness":-20
               }
             ],
             "color":"#fe4a46",
             "tth":[
-              "alignv av01 round",
-              "alignv av02 round",
-              "alignv av03 round",
               "alignv av04 round",
-              "doublev dv01, dv02 .round",
-              "doublev dv03, dv04 .round",
-              "interpolatev iv01 av01, av02",
-              "singlev dv01, sv01 .none",
-              "singlev dv03, sv02 .none round",
-              "mdeltav av04 34-35 4",
-              "mdeltav av04 42-42 4",
-              "mdeltav av04 12-13 4",
-              "mdeltav av04 20-20 4",
-              "mdeltav av04 27-28 4",
-              "mdeltav av04 31-31 4",
-              "mdeltav av04 23-24 4",
-              "mdeltav av04 16-16 4",
-              "mdeltav av04 9-9 4",
-              "mdeltav av04 38-39 4",
-              "mdeltav av04 10-10 -4",
-              "mdeltav av04 17-17 -4",
-              "singlev av04, sv05 .none",
-              "singlev av03, sv04 .none",
-              "singlev dv04, sv03 .none round",
-              "alignh lsb round",
-              "alignh ah01 round",
-              "singleh lsb, sh01 .none round",
-              "singleh sh01, iv01 .none round",
-              "mdeltah ah01 22-23 3",
-              "mdeltah ah01 9-21 2",
-              "singleh ah01, sh02 .round",
-              "singleh sh01, sh03 .round",
-              "mdeltah sh03 9-12 -2",
-              "mdeltah sh03 22-23 -3"
+              "alignv av08 round",
+              "alignv n53 round",
+              "alignv n52 round",
+              "doublev av03, dv02 .round",
+              "doublev iv03, dv04 .round",
+              "doublev dv08, dv07 .round",
+              "doublev av01, sv01 .round",
+              "mdeltav av03 21-21 -8",
+              "mdeltav av03 39-40 -8",
+              "mdeltav av03 24-24 8",
+              "mdeltav av03 28-28 -8",
+              "mdeltav av03 17-17 -8",
+              "mdeltav av03 10-10 -8",
+              "mdeltav sv01 12-12 -3",
+              "mdeltav sv01 36-36 -3",
+              "mdeltav sv01 13-13 -2",
+              "mdeltav sv01 33-33 -2",
+              "mdeltav sv01 14-14 1",
+              "mdeltav sv01 38-38 1",
+              "mdeltav sv01 11-11 2",
+              "mdeltav sv01 34-34 2",
+              "mdeltav sv01 25-25 3",
+              "mdeltav sv01 24-24 4",
+              "mdeltav sv01 35-35 6",
+              "mdeltav sv01 19-19 5",
+              "mdeltav sv01 22-22 4",
+              "mdeltav sv01 42-42 2",
+              "mdeltav sv01 31-32 2",
+              "mdeltav sv01 41-41 1",
+              "mdeltav sv01 18-18 1",
+              "mdeltav sv01 37-37 -2",
+              "mdeltav sv01 30-30 -2",
+              "mdeltav sv01 9-10 -2",
+              "mdeltav sv01 15-17 -3",
+              "mdeltav sv01 29-29 -5",
+              "mdeltav sv01 39-40 -7",
+              "singlev sv01, dv03 .none",
+              "mdeltav iv03 34-34 -8",
+              "singlev iv03, dv05 .none",
+              "mdeltav dv07 20-23 8",
+              "mdeltav dv07 32-34 -8",
+              "mdeltav dv07 16-18 -8",
+              "mdeltav dv08 31-31 8",
+              "mdeltav dv08 19-23 8",
+              "mdeltav dv08 16-18 -8",
+              "singlev dv04, dv06 .none",
+              "mdeltav av01 33-33 -4",
+              "mdeltav av01 18-18 -3",
+              "mdeltav av01 12-12 -2",
+              "mdeltav av01 36-36 -2",
+              "mdeltav av01 34-34 1",
+              "mdeltav av01 19-19 2",
+              "mdeltav av01 14-14 3",
+              "mdeltav av01 38-38 3",
+              "mdeltav av01 41-41 5",
+              "mdeltav av01 35-35 6",
+              "mdeltav av01 24-28 5",
+              "mdeltav av01 22-22 3",
+              "mdeltav av01 42-42 2",
+              "mdeltav av01 11-11 2",
+              "mdeltav av01 13-13 -1",
+              "mdeltav av01 20-21 -2",
+              "mdeltav av01 29-29 -2",
+              "mdeltav av01 9-10 -3",
+              "mdeltav av01 39-39 -4",
+              "mdeltav av01 30-30 -5",
+              "singlev av01, av02 .none",
+              "mdeltav dv02 28-28 -8",
+              "mdeltav dv02 10-10 -8",
+              "mdeltav dv02 34-34 8",
+              "mdeltav dv02 24-24 8",
+              "mdeltav dv02 39-40 -8",
+              "mdeltav dv02 20-21 -8",
+              "mdeltav dv02 17-17 -8",
+              "singlev dv02, av07 .none",
+              "mdeltav n53 9-9 4",
+              "mdeltav n53 16-16 4",
+              "mdeltav n53 23-24 4",
+              "mdeltav n53 31-31 4",
+              "mdeltav n53 38-39 4",
+              "mdeltav n53 42-42 4",
+              "mdeltav n53 34-35 4",
+              "mdeltav n53 27-28 4",
+              "mdeltav n53 20-20 4",
+              "mdeltav n53 12-13 4",
+              "mdeltav n53 17-17 -4",
+              "mdeltav n53 10-10 -4",
+              "singlev n53, n50 .none",
+              "singlev n52, n51 .none",
+              "singlev av03, av05 .none"
             ],
             "active":true
           }
-        ],
-        "note":"Dollar incomplete\nGreater complete"
+        ]
       },
       {
         "name":"dollar.spacer",
@@ -9309,29 +9356,34 @@
       },
       {
         "name":"dollar.ss04",
-        "lastModified":"2021-01-30 16:28:56",
+        "lastModified":"2021-02-21 20:19:36",
         "openTypeGlyphClass":1,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "colorFlag":121,
             "advanceWidth":1126,
             "elements":[
               {
@@ -9341,26 +9393,64 @@
                     {
                       "id":"contour.87",
                       "nodes":[
-                        "111 211 {n:'iv01'}",
-                        "111 45",
-                        "202.722 21.2307  298.619 8.9901  393 2 {n:'dv01'}",
-                        "360 -236 {n:'av01'}",
+                        "174 189 o",
+                        "111 211 {n:'dv07'}",
+                        "111 45 {n:'dv08'}",
+                        "165 31 o",
+                        "312 8 o",
+                        "393 2 {n:'dv06'}",
+                        "360 -236 {n:'av08'}",
                         "506 -236",
-                        "539 2 {n:'sv01'}",
-                        "758.673 12.6557  1004 102.705  1004 362 s {n:'sh02'}",
-                        "1004 769.896  307 693.516  307 975 s {n:'sh03'}",
-                        "307 1098.62  439.692 1155  547 1155 s {n:'dv03'}",
-                        "685.567 1155  781.899 1147.37  913 1114",
-                        "913 1268",
-                        "846.774 1284.18  778.8 1293.48  711 1300 {n:'sv02'}",
-                        "737 1495 {n:'av02'}",
-                        "592 1495",
-                        "567 1305 {n:'dv04'}",
-                        "362.155 1294.42  121 1197.35  121 956 s {n:'sh01'}",
-                        "121 555.535  817 628.357  817 352 s {n:'ah01'}",
-                        "817 211.908  680.784 156  559 156 s",
-                        "414 156 s {n:'dv02'}",
-                        "315.484 156  203.787 178.602 c"
+                        "539 2 {n:'dv04'}",
+                        "642 7 o",
+                        "814 58 o",
+                        "936 148 o",
+                        "1004 278 o",
+                        "1004 362 s {n:'sv03'}",
+                        "1004 441 o",
+                        "939 555 o",
+                        "834 638 o",
+                        "702 699 o",
+                        "635 725 s {n:'av02'}",
+                        "496 780 s {n:'av01'}",
+                        "402 817 o",
+                        "307 906 o",
+                        "307 975 s {n:'iv01'}",
+                        "307 1049 o",
+                        "422 1144 o",
+                        "547 1155 {n:'dv02'}",
+                        "692 1153 {n:'av07'}",
+                        "746 1148 o",
+                        "858 1128 o",
+                        "913 1114 {n:'dv01'}",
+                        "913 1268 {n:'av06'}",
+                        "868 1279 o",
+                        "763 1295 o",
+                        "711 1300 {n:'av05'}",
+                        "737 1495",
+                        "592 1495 {n:'av04'}",
+                        "567 1305 {n:'av03'}",
+                        "451 1299 o",
+                        "283 1236 o",
+                        "173 1139 o",
+                        "121 1018 o",
+                        "121 956 s {n:'sv02'}",
+                        "121 880 o",
+                        "183 770 o",
+                        "282 689 o",
+                        "408 631 o",
+                        "473 606 s {n:'sv01'}",
+                        "610 551 s {n:'dv03'}",
+                        "662 531 o",
+                        "739 491 o",
+                        "791 445 o",
+                        "817 388 o",
+                        "817 352 s {n:'iv02'}",
+                        "817 266 o",
+                        "694 166 o",
+                        "559 156 {n:'iv03'}",
+                        "414 156 {n:'dv05'}",
+                        "323 161 o"
                       ]
                     }
                   ]
@@ -9375,7 +9465,7 @@
                   "nodeNode":{
                     "point":"121 956",
                     "contour":"contour.87",
-                    "index":29,
+                    "index":41,
                     "element":"element.45"
                   }
                 },
@@ -9384,7 +9474,7 @@
                   "nodeNode":{
                     "point":"307 975",
                     "contour":"contour.87",
-                    "index":13,
+                    "index":22,
                     "element":"element.45"
                   }
                 }
@@ -9395,7 +9485,7 @@
                   "nodeNode":{
                     "point":"817 352",
                     "contour":"contour.87",
-                    "index":32,
+                    "index":52,
                     "element":"element.45"
                   }
                 },
@@ -9404,7 +9494,7 @@
                   "nodeNode":{
                     "point":"1004 362",
                     "contour":"contour.87",
-                    "index":10,
+                    "index":13,
                     "element":"element.45"
                   }
                 }
@@ -9415,7 +9505,7 @@
                   "nodeNode":{
                     "point":"393 2",
                     "contour":"contour.87",
-                    "index":4,
+                    "index":5,
                     "element":"element.45"
                   }
                 },
@@ -9424,7 +9514,7 @@
                   "nodeNode":{
                     "point":"414 156",
                     "contour":"contour.87",
-                    "index":36,
+                    "index":56,
                     "element":"element.45"
                   }
                 }
@@ -9435,7 +9525,7 @@
                   "nodeNode":{
                     "point":"547 1155",
                     "contour":"contour.87",
-                    "index":16,
+                    "index":25,
                     "element":"element.45"
                   }
                 },
@@ -9444,7 +9534,7 @@
                   "nodeNode":{
                     "point":"567 1305",
                     "contour":"contour.87",
-                    "index":26,
+                    "index":36,
                     "element":"element.45"
                   }
                 }
@@ -9455,7 +9545,7 @@
                   "nodeNode":{
                     "point":"360 -236",
                     "contour":"contour.87",
-                    "index":5,
+                    "index":6,
                     "element":"element.45"
                   }
                 },
@@ -9467,7 +9557,7 @@
                   "nodeNode":{
                     "point":"737 1495",
                     "contour":"contour.87",
-                    "index":24,
+                    "index":34,
                     "element":"element.45"
                   }
                 },
@@ -9476,23 +9566,95 @@
             ],
             "color":"#fe4a46",
             "tth":[
-              "alignv av01 round",
-              "alignv av02 round",
-              "doublev dv01, dv02 .round",
-              "doublev dv03, dv04 .round",
-              "interpolatev iv01 av01, av02",
-              "singlev dv01, sv01 .none",
-              "singlev dv04, sv02 .none round",
-              "alignh lsb round",
-              "alignh ah01 round",
-              "singleh lsb, sh01 .none round",
-              "singleh sh01, iv01 .none round",
-              "mdeltah ah01 22-23 3",
-              "mdeltah ah01 9-21 2",
-              "singleh ah01, sh02 .round",
-              "singleh sh01, sh03 .round",
-              "mdeltah sh03 9-21 -2",
-              "mdeltah sh03 22-23 -3"
+              "alignv av04 round",
+              "alignv av08 round",
+              "doublev av03, dv02 .round",
+              "doublev iv03, dv04 .round",
+              "doublev dv08, dv07 .round",
+              "doublev av06, dv01 .round",
+              "doublev av01, sv01 .round",
+              "mdeltav dv07 20-23 8",
+              "mdeltav dv07 32-34 -8",
+              "mdeltav dv07 16-18 -8",
+              "mdeltav dv08 31-31 8",
+              "mdeltav dv08 19-23 8",
+              "mdeltav dv08 16-18 -8",
+              "singlev dv04, dv06 .none",
+              "mdeltav av01 39-39 -4",
+              "mdeltav av01 9-10 -3",
+              "mdeltav av01 12-12 -2",
+              "mdeltav av01 29-29 -2",
+              "mdeltav av01 34-34 1",
+              "mdeltav av01 19-19 2",
+              "mdeltav av01 14-14 3",
+              "mdeltav av01 38-38 3",
+              "mdeltav av01 41-41 5",
+              "mdeltav av01 35-35 6",
+              "mdeltav av01 24-28 5",
+              "mdeltav av01 22-22 3",
+              "mdeltav av01 42-42 2",
+              "mdeltav av01 11-11 2",
+              "mdeltav av01 13-13 -1",
+              "mdeltav av01 20-21 -2",
+              "mdeltav av01 36-36 -2",
+              "mdeltav av01 18-18 -3",
+              "mdeltav av01 33-33 -4",
+              "mdeltav av01 30-30 -5",
+              "singlev av01, av02 .none",
+              "mdeltav dv02 20-21 -8",
+              "mdeltav dv02 39-40 -8",
+              "mdeltav dv02 34-34 8",
+              "mdeltav dv02 24-24 8",
+              "mdeltav dv02 28-28 -8",
+              "mdeltav dv02 17-17 -8",
+              "mdeltav dv02 10-10 -8",
+              "singlev dv02, av07 .none",
+              "mdeltav dv01 38-40 -8",
+              "mdeltav dv01 12-12 8",
+              "mdeltav dv01 34-34 8",
+              "mdeltav dv01 15-15 8",
+              "mdeltav dv01 23-24 8",
+              "mdeltav dv01 32-32 -8",
+              "mdeltav dv01 27-29 -8",
+              "mdeltav av06 38-40 -8",
+              "mdeltav av06 15-15 8",
+              "mdeltav av06 23-24 8",
+              "mdeltav av06 12-12 8",
+              "mdeltav av06 32-32 -8",
+              "mdeltav av06 27-29 -8",
+              "mdeltav av03 21-21 -8",
+              "mdeltav av03 39-40 -8",
+              "mdeltav av03 24-24 8",
+              "mdeltav av03 28-28 -8",
+              "mdeltav av03 17-17 -8",
+              "mdeltav av03 10-10 -8",
+              "singlev av03, av05 .none",
+              "mdeltav sv01 36-36 -3",
+              "mdeltav sv01 15-17 -3",
+              "mdeltav sv01 13-13 -2",
+              "mdeltav sv01 33-33 -2",
+              "mdeltav sv01 14-14 1",
+              "mdeltav sv01 38-38 1",
+              "mdeltav sv01 11-11 2",
+              "mdeltav sv01 34-34 2",
+              "mdeltav sv01 25-25 3",
+              "mdeltav sv01 24-24 4",
+              "mdeltav sv01 35-35 6",
+              "mdeltav sv01 19-19 5",
+              "mdeltav sv01 22-22 4",
+              "mdeltav sv01 42-42 2",
+              "mdeltav sv01 31-32 2",
+              "mdeltav sv01 41-41 1",
+              "mdeltav sv01 18-18 1",
+              "mdeltav sv01 37-37 -2",
+              "mdeltav sv01 30-30 -2",
+              "mdeltav sv01 9-10 -2",
+              "mdeltav sv01 12-12 -3",
+              "mdeltav sv01 29-29 -5",
+              "mdeltav sv01 39-40 -7",
+              "singlev sv01, dv03 .none",
+              "mdeltav iv03 34-34 -8",
+              "singlev iv03, dv05 .none"
             ],
             "active":true
           }
@@ -19562,38 +19724,34 @@
       },
       {
         "name":"less_dollar_greater.liga.ss04",
-        "lastModified":"2021-02-16 03:14:37",
+        "lastModified":"2021-02-21 20:37:48",
         "openTypeGlyphClass":2,
-        "lib":{
-          "note":"Less complete\nDollar incomplete\nGreater complete"
-        },
-        "colorFlag":61,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "note":"Less complete\nDollar incomplete\nGreater complete",
-            "colorFlag":61,
+            "colorFlag":121,
             "advanceWidth":1126,
             "elements":[
               {
@@ -19601,40 +19759,65 @@
                 "elementData":{
                   "contours":[
                     {
-                      "id":"contour.173",
                       "nodes":[
-                        "-1757 547",
-                        "-1212 995 {n:'sv05'}",
-                        "-1321 1106 {n:'av04'}",
-                        "-1993 545",
-                        "-1342 2 {n:'av03'}",
-                        "-733 2 {n:'dv01'}",
-                        "-766 -236 {n:'av01'}",
-                        "-620 -236",
-                        "-587 2 {n:'sv02'}",
-                        "-367.5 12.65  -122 102.55  -122 362 s {n:'sh02'}",
-                        "-122 576.05  -321.05 659.05  -491 725 s",
-                        "-630 780 s",
-                        "-719.15 815.1  -819 865  -819 975 s {n:'sh03'}",
-                        "-819 1108.05  -687.55 1145.5  -579 1155 {n:'sv03'}",
-                        "-434 1153 {n:'dv03'}",
-                        "-103.5 1153",
-                        "632 543 {n:'sv08'}",
-                        "87 94 {n:'sv07'}",
-                        "195 -16 {n:'av05'}",
-                        "867 545 {n:'av06'}",
-                        "-36.2 1299",
-                        "-415 1300 {n:'dv04'}",
-                        "-389 1495 {n:'av02'}",
-                        "-534 1495",
-                        "-559 1305 {n:'sv01'}",
-                        "-763.85 1294.4  -1005 1197.35  -1005 956 s {n:'sh01'}",
-                        "-1005 749.65  -817.3 669.2  -653 606 s",
-                        "-516 551 s",
-                        "-423.4 515.4  -309 468.5  -309 352 s {n:'ah01'}",
-                        "-309 202.8  -443.85 165.1  -567 156 {n:'sv04'}",
-                        "-712 156 {n:'dv02'}",
-                        "-1300.05 167.2 {n:'sv06'}"
+                        "-587 2 {n:'dv04'}",
+                        "-484 7 o",
+                        "-312 58 o",
+                        "-190 148 o",
+                        "-122 278 o",
+                        "-122 362 s {n:'sv03'}",
+                        "-122 441 o",
+                        "-187 555 o",
+                        "-292 638 o",
+                        "-424.15 698.55 o",
+                        "-491 725 s {n:'av02'}",
+                        "-630 780 s {n:'av01'}",
+                        "-723.95 817.15 o",
+                        "-819 906 o",
+                        "-819 975 s {n:'iv01'}",
+                        "-819 1049 o",
+                        "-704 1144 o",
+                        "-579 1155 {n:'dv02'}",
+                        "-434 1153 {n:'av07'}",
+                        "-103.5 1153 {n:'dv01'}",
+                        "632 543 {n:'n50'}",
+                        "87 94 {n:'n51'}",
+                        "195 -16 {n:'n52'}",
+                        "867 545 {n:'n53'}",
+                        "-36.2 1299 {n:'av06'}",
+                        "-415 1300 {n:'av05'}",
+                        "-389 1495 {n:'av09'}",
+                        "-534 1495 {n:'av04'}",
+                        "-559 1305 {n:'av03'}",
+                        "-675 1299 o",
+                        "-843 1236 o",
+                        "-953 1139 o",
+                        "-1005 1018 o",
+                        "-1005 956 s {n:'sv02'}",
+                        "-1005 880 o",
+                        "-943 770 o",
+                        "-844 689 o",
+                        "-717.65 631.95 o",
+                        "-653 606 s {n:'sv01'}",
+                        "-516 551 s {n:'dv03'}",
+                        "-464.3 530.25 o",
+                        "-387 491 o",
+                        "-335 445 o",
+                        "-309 388 o",
+                        "-309 352 s {n:'iv02'}",
+                        "-309 266 o",
+                        "-432 166 o",
+                        "-567 156 {n:'iv03'}",
+                        "-712 156 {n:'dv05'}",
+                        "-1300.05 167.2 {n:'dv07'}",
+                        "-1757 547 {n:'n54'}",
+                        "-1212 995 {n:'n55'}",
+                        "-1321 1106 {n:'n56'}",
+                        "-1993 545 {n:'n57'}",
+                        "-1342 2 {n:'dv08'}",
+                        "-733 2 {n:'dv06'}",
+                        "-766 -236 {n:'av08'}",
+                        "-620 -236"
                       ]
                     }
                   ]
@@ -19645,71 +19828,38 @@
             "hints":[
               {
                 "vertical":true,
-                "node0":{
-                  "nodeNode":{
-                    "point":"-1005 956",
-                    "contour":"contour.173",
-                    "index":35,
-                    "element":"element.102"
-                  }
-                },
-                "thickness":186,
-                "nodeThickness":{
-                  "nodeNode":{
-                    "point":"-819 975",
-                    "contour":"contour.173",
-                    "index":18,
-                    "element":"element.102"
-                  }
-                }
+                "position":-1005,
+                "thickness":186
               },
               {
                 "vertical":true,
-                "node0":{
-                  "nodeNode":{
-                    "point":"-309 352",
-                    "contour":"contour.173",
-                    "index":42,
-                    "element":"element.102"
-                  }
-                },
-                "thickness":187,
-                "nodeThickness":{
-                  "nodeNode":{
-                    "point":"-122 362",
-                    "contour":"contour.173",
-                    "index":11,
-                    "element":"element.102"
-                  }
-                }
+                "position":-309,
+                "thickness":187
               },
               {
                 "horizontal":true,
-                "node0":{
-                  "nodeNode":{
-                    "point":"-733 2",
-                    "contour":"contour.173",
-                    "index":5,
-                    "element":"element.102"
-                  }
-                },
-                "thickness":154,
-                "nodeThickness":{
-                  "nodeNode":{
-                    "point":"-712 156",
-                    "contour":"contour.173",
-                    "index":46,
-                    "element":"element.102"
-                  }
-                }
+                "position":2,
+                "thickness":154
               },
               {
                 "horizontal":true,
                 "node0":{
                   "nodeNode":{
                     "point":"-434 1153",
-                    "contour":"contour.173",
-                    "index":22,
+                    "contour":{
+                      "id":"contour.173",
+                      "nodes":[
+                        "-434 1153 {n:'dv03'}",
+                        "-103.5 1153",
+                        "632 543 {n:'sv08'}",
+                        "87 94 {n:'sv07'}",
+                        "195 -16 {n:'av05'}",
+                        "867 545 {n:'av06'}",
+                        "-36.2 1299",
+                        "-415 1300 {n:'dv04'}"
+                      ]
+                    },
+                    "index":0,
                     "element":"element.102"
                   }
                 },
@@ -19718,7 +19868,7 @@
                   "nodeNode":{
                     "point":"-415 1300",
                     "contour":"contour.173",
-                    "index":29,
+                    "index":7,
                     "element":"element.102"
                   }
                 }
@@ -19729,105 +19879,110 @@
                   "nodeNode":{
                     "point":"-434 1153",
                     "contour":"contour.173",
-                    "index":22,
+                    "index":0,
                     "element":"element.102"
                   }
                 },
-                "thickness":152,
-                "nodeThickness":{
-                  "nodeNode":{
-                    "point":"-559 1305",
-                    "contour":"contour.173",
-                    "index":32,
-                    "element":"element.102"
-                  }
-                }
+                "thickness":152
               },
               {
                 "horizontal":true,
-                "node0":{
-                  "nodeNode":{
-                    "point":"-1342 2",
-                    "contour":"contour.173",
-                    "index":4,
-                    "element":"element.102"
-                  }
-                },
+                "position":2,
                 "thickness":159.5
               },
               {
                 "horizontal":true,
-                "node0":{
-                  "nodeNode":{
-                    "point":"-766 -236",
-                    "contour":"contour.173",
-                    "index":6,
-                    "element":"element.102"
-                  }
-                },
+                "position":-236,
                 "thickness":21
               },
               {
                 "horizontal":true,
-                "node0":{
-                  "nodeNode":{
-                    "point":"-389 1495",
-                    "contour":"contour.173",
-                    "index":30,
-                    "element":"element.102"
-                  }
-                },
+                "position":1495,
                 "thickness":-20
               }
             ],
             "color":"#fe4a46",
             "tth":[
-              "alignv av01 round",
-              "alignv av02 round",
-              "alignv av03 round",
-              "alignv sv02 round",
               "alignv av04 round",
-              "alignv av05 round",
-              "alignv av06 round",
-              "doublev dv01, dv02 .round",
-              "doublev dv03, dv04 .round",
-              "mdeltav av04 23-23 8",
-              "mdeltav av04 34-34 8",
-              "mdeltav av04 36-36 8",
-              "mdeltav av04 32-32 8",
-              "mdeltav av04 21-21 8",
-              "mdeltav av04 12-12 8",
-              "singlev av04, sv05 .none",
-              "mdeltav av06 42-42 4",
-              "mdeltav av06 12-13 4",
-              "mdeltav av06 20-20 4",
-              "mdeltav av06 27-28 4",
-              "mdeltav av06 34-35 4",
-              "mdeltav av06 38-39 4",
-              "mdeltav av06 31-31 4",
-              "mdeltav av06 23-24 4",
-              "mdeltav av06 16-16 4",
-              "mdeltav av06 9-9 4",
-              "mdeltav av06 10-10 -4",
-              "mdeltav av06 17-17 -4",
-              "singlev av06, sv08 .none",
-              "singlev av05, sv07 .none",
-              "singlev dv04, sv01 .none round",
-              "singlev av03, sv06 .none",
-              "alignh lsb round",
-              "alignh ah01 round",
-              "mdeltah ah01 22-23 3",
-              "mdeltah ah01 9-21 2",
-              "singleh ah01, sh02 .round",
-              "singleh lsb, sh01 .none round",
-              "singleh sh01, sh03 .round",
-              "mdeltah sh03 9-21 -2",
-              "mdeltah sh03 22-23 -3"
+              "alignv av08 round",
+              "alignv n56 round",
+              "doublev av03, dv02 .round",
+              "doublev iv03, dv04 .round",
+              "doublev av01, sv01 .round",
+              "mdeltav av01 39-39 -4",
+              "mdeltav av01 18-18 -3",
+              "mdeltav av01 20-21 -2",
+              "mdeltav av01 36-36 -2",
+              "mdeltav av01 34-34 1",
+              "mdeltav av01 19-19 2",
+              "mdeltav av01 14-14 3",
+              "mdeltav av01 38-38 3",
+              "mdeltav av01 41-41 5",
+              "mdeltav av01 35-35 6",
+              "mdeltav av01 24-28 5",
+              "mdeltav av01 22-22 3",
+              "mdeltav av01 42-42 2",
+              "mdeltav av01 11-11 2",
+              "mdeltav av01 13-13 -1",
+              "mdeltav av01 29-29 -2",
+              "mdeltav av01 12-12 -2",
+              "mdeltav av01 9-10 -3",
+              "mdeltav av01 33-33 -4",
+              "mdeltav av01 30-30 -5",
+              "singlev av01, av02 .none",
+              "mdeltav dv02 20-21 -8",
+              "mdeltav dv02 39-40 -8",
+              "mdeltav dv02 24-24 8",
+              "mdeltav dv02 34-34 8",
+              "mdeltav dv02 28-28 -8",
+              "mdeltav dv02 17-17 -8",
+              "mdeltav dv02 10-10 -8",
+              "singlev dv02, av07 .none",
+              "mdeltav av03 10-10 -8",
+              "mdeltav av03 21-21 -8",
+              "mdeltav av03 24-24 8",
+              "mdeltav av03 17-17 -8",
+              "mdeltav av03 39-40 -8",
+              "mdeltav av03 28-28 -8",
+              "singlev av03, av05 .none",
+              "mdeltav sv01 12-12 -3",
+              "mdeltav sv01 36-36 -3",
+              "mdeltav sv01 13-13 -2",
+              "mdeltav sv01 33-33 -2",
+              "mdeltav sv01 14-14 1",
+              "mdeltav sv01 38-38 1",
+              "mdeltav sv01 31-32 2",
+              "mdeltav sv01 34-34 2",
+              "mdeltav sv01 25-25 3",
+              "mdeltav sv01 24-24 4",
+              "mdeltav sv01 35-35 6",
+              "mdeltav sv01 19-19 5",
+              "mdeltav sv01 22-22 4",
+              "mdeltav sv01 11-11 2",
+              "mdeltav sv01 42-42 2",
+              "mdeltav sv01 41-41 1",
+              "mdeltav sv01 18-18 1",
+              "mdeltav sv01 37-37 -2",
+              "mdeltav sv01 30-30 -2",
+              "mdeltav sv01 9-10 -2",
+              "mdeltav sv01 15-17 -3",
+              "mdeltav sv01 29-29 -5",
+              "mdeltav sv01 39-40 -7",
+              "singlev sv01, dv03 .none",
+              "mdeltav iv03 34-34 -8",
+              "singlev iv03, dv05 .none",
+              "mdeltav n56 23-23 8",
+              "mdeltav n56 34-34 8",
+              "mdeltav n56 36-36 8",
+              "mdeltav n56 32-32 8",
+              "mdeltav n56 21-21 8",
+              "mdeltav n56 12-12 8",
+              "singlev n56, n55 .none",
+              "singlev dv04, dv06 .none"
             ],
             "active":true
           }
-        ],
-        "note":"Less complete\nDollar incomplete\nGreater complete"
+        ]
       },
       {
         "name":"less_dollar.liga",
@@ -20050,30 +20205,67 @@
             ],
             "color":"#fe4a46",
             "tth":[
-              "alignv av01 round",
-              "alignv av02 round",
-              "alignv av03 round",
               "alignv av04 round",
-              "alignv av05 round",
-              "doublev dv01, dv02 .round",
-              "singlev av03, sv03 .none",
-              "mdeltav av05 23-23 8",
-              "mdeltav av05 34-34 8",
-              "mdeltav av05 36-36 8",
-              "mdeltav av05 32-32 8",
-              "mdeltav av05 21-21 8",
-              "mdeltav av05 12-12 8",
-              "singlev av05, sv02 .none",
-              "singlev dv02, sv01 .none",
-              "alignh lsb round",
-              "alignh ah01 round",
-              "mdeltah ah01 22-23 3",
-              "mdeltah ah01 9-21 2",
-              "singleh ah01, sh01 .round",
-              "singleh lsb, sh02 .none round",
-              "singleh sh02, sh03 .round",
-              "mdeltah sh03 9-21 -2",
-              "mdeltah sh03 22-23 -3"
+              "doublev av03, dv02 .round",
+              "doublev av01, sv01 .round",
+              "mdeltav av01 39-39 -4",
+              "mdeltav av01 18-18 -3",
+              "mdeltav av01 20-21 -2",
+              "mdeltav av01 36-36 -2",
+              "mdeltav av01 34-34 1",
+              "mdeltav av01 19-19 2",
+              "mdeltav av01 14-14 3",
+              "mdeltav av01 38-38 3",
+              "mdeltav av01 41-41 5",
+              "mdeltav av01 35-35 6",
+              "mdeltav av01 24-28 5",
+              "mdeltav av01 22-22 3",
+              "mdeltav av01 42-42 2",
+              "mdeltav av01 11-11 2",
+              "mdeltav av01 13-13 -1",
+              "mdeltav av01 29-29 -2",
+              "mdeltav av01 12-12 -2",
+              "mdeltav av01 9-10 -3",
+              "mdeltav av01 33-33 -4",
+              "mdeltav av01 30-30 -5",
+              "singlev av01, av02 .none",
+              "mdeltav dv02 20-21 -8",
+              "mdeltav dv02 39-40 -8",
+              "mdeltav dv02 34-34 8",
+              "mdeltav dv02 24-24 8",
+              "mdeltav dv02 28-28 -8",
+              "mdeltav dv02 17-17 -8",
+              "mdeltav dv02 10-10 -8",
+              "mdeltav av03 21-21 -8",
+              "mdeltav av03 39-40 -8",
+              "mdeltav av03 24-24 8",
+              "mdeltav av03 28-28 -8",
+              "mdeltav av03 17-17 -8",
+              "mdeltav av03 10-10 -8",
+              "singlev av03, av05 .none",
+              "mdeltav sv01 12-12 -3",
+              "mdeltav sv01 36-36 -3",
+              "mdeltav sv01 13-13 -2",
+              "mdeltav sv01 33-33 -2",
+              "mdeltav sv01 14-14 1",
+              "mdeltav sv01 38-38 1",
+              "mdeltav sv01 11-11 2",
+              "mdeltav sv01 34-34 2",
+              "mdeltav sv01 25-25 3",
+              "mdeltav sv01 24-24 4",
+              "mdeltav sv01 35-35 6",
+              "mdeltav sv01 19-19 5",
+              "mdeltav sv01 22-22 4",
+              "mdeltav sv01 42-42 2",
+              "mdeltav sv01 31-32 2",
+              "mdeltav sv01 41-41 1",
+              "mdeltav sv01 18-18 1",
+              "mdeltav sv01 37-37 -2",
+              "mdeltav sv01 30-30 -2",
+              "mdeltav sv01 9-10 -2",
+              "mdeltav sv01 15-17 -3",
+              "mdeltav sv01 29-29 -5",
+              "mdeltav sv01 39-40 -7"
             ],
             "active":true
           }
@@ -20082,38 +20274,34 @@
       },
       {
         "name":"less_dollar.liga.ss04",
-        "lastModified":"2021-02-15 23:12:15",
+        "lastModified":"2021-02-21 20:41:41",
         "openTypeGlyphClass":2,
-        "lib":{
-          "note":"Less complete\nDollar incomplete"
-        },
-        "colorFlag":61,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "colorFlag":61,
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "note":"Less complete\nDollar incomplete",
-            "colorFlag":61,
+            "colorFlag":121,
             "advanceWidth":1126,
             "elements":[
               {
@@ -20121,66 +20309,65 @@
                 "elementData":{
                   "contours":[
                     {
-                      "id":"contour.177",
                       "nodes":[
-                        "-753 547",
-                        "-208 995 {n:'sv02'}",
-                        "-317 1106 {n:'av05'}",
-                        "-989 545",
-                        "-338 2 {n:'av03'}",
-                        "272 2 {n:'dv01'}",
-                        "239 -236 {n:'av01'}",
-                        "385 -236",
-                        "418 2 {n:'av04'}",
+                        "418 2 {n:'dv04'}",
                         "521 7 o",
                         "693 58 o",
                         "815 148 o",
                         "883 278 o",
-                        "883 362 s {n:'sh01'}",
+                        "883 362 s {n:'sv03'}",
                         "883 441 o",
                         "818 555 o",
                         "713 638 o",
-                        "581 699 o",
-                        "514 725 s",
-                        "375 780 s",
-                        "281 817 o",
+                        "580.85 698.55 o",
+                        "514 725 s {n:'av02'}",
+                        "375 780 s {n:'av01'}",
+                        "281.05 817.15 o",
                         "186 906 o",
-                        "186 975 s {n:'sh03'}",
+                        "186 975 s {n:'iv01'}",
                         "186 1049 o",
                         "301 1144 o",
-                        "426 1155 {n:'dv03'}",
-                        "571 1153",
+                        "426 1155 {n:'dv02'}",
+                        "571 1153 {n:'av07'}",
                         "625 1148 o",
                         "737 1128 o",
-                        "792 1114",
-                        "792 1268",
+                        "792 1114 {n:'dv01'}",
+                        "792 1268 {n:'av06'}",
                         "747 1279 o",
                         "642 1295 o",
-                        "590 1300 {n:'sv01'}",
-                        "616 1495 {n:'av02'}",
-                        "471 1495",
-                        "446 1305 {n:'dv04'}",
+                        "590 1300 {n:'av05'}",
+                        "616 1495",
+                        "471 1495 {n:'av04'}",
+                        "446 1305 {n:'av03'}",
                         "330 1299 o",
                         "162 1236 o",
                         "52 1139 o",
                         "0 1018 o",
-                        "0 956 s {n:'sh02'}",
+                        "0 956 s {n:'sv02'}",
                         "0 880 o",
                         "62 770 o",
                         "161 689 o",
-                        "287 631 o",
-                        "352 606 s",
-                        "489 551 s",
-                        "541 531 o",
+                        "287.35 631.95 o",
+                        "352 606 s {n:'sv01'}",
+                        "489 551 s {n:'dv03'}",
+                        "540.7 530.25 o",
                         "618 491 o",
                         "670 445 o",
                         "696 388 o",
-                        "696 352 s {n:'ah01'}",
+                        "696 352 s {n:'iv02'}",
                         "696 266 o",
                         "573 166 o",
-                        "438 156",
-                        "293 156 {n:'dv02'}",
-                        "-296.05 167.2 {n:'sv03'}"
+                        "438 156 {n:'iv03'}",
+                        "293 156 {n:'dv05'}",
+                        "-296.05 167.2 {n:'dv07'}",
+                        "-753 547 {n:'n54'}",
+                        "-208 995 {n:'n55'}",
+                        "-317 1106 {n:'n56'}",
+                        "-989 545 {n:'n57'}",
+                        "-338 2 {n:'dv08'}",
+                        "272 2 {n:'dv06'}",
+                        "239 -236 {n:'av08'}",
+                        "385 -236"
                       ]
                     }
                   ]
@@ -20191,40 +20378,37 @@
             "hints":[
               {
                 "vertical":true,
-                "node0":{
-                  "nodeNode":{
-                    "point":"0 956",
-                    "contour":"contour.177",
-                    "index":41,
-                    "element":"element.104"
-                  }
-                },
                 "thickness":186,
                 "nodeThickness":{
                   "nodeNode":{
                     "point":"186 975",
-                    "contour":"contour.177",
-                    "index":22,
+                    "contour":{
+                      "id":"contour.177",
+                      "nodes":[
+                        "-753 547",
+                        "-208 995 {n:'sv02'}",
+                        "-317 1106 {n:'av05'}",
+                        "-989 545",
+                        "-338 2 {n:'av03'}",
+                        "272 2 {n:'dv01'}",
+                        "293 156 {n:'dv02'}",
+                        "-296.05 167.2 {n:'sv03'}"
+                      ]
+                    },
+                    "index":6,
                     "element":"element.104"
                   }
                 }
               },
               {
                 "vertical":true,
-                "node0":{
-                  "nodeNode":{
-                    "point":"696 352",
-                    "contour":"contour.177",
-                    "index":52,
-                    "element":"element.104"
-                  }
-                },
+                "position":696,
                 "thickness":187,
                 "nodeThickness":{
                   "nodeNode":{
                     "point":"883 362",
                     "contour":"contour.177",
-                    "index":13,
+                    "index":6,
                     "element":"element.104"
                   }
                 }
@@ -20244,27 +20428,20 @@
                   "nodeNode":{
                     "point":"293 156",
                     "contour":"contour.177",
-                    "index":56,
+                    "index":6,
                     "element":"element.104"
                   }
                 }
               },
               {
                 "horizontal":true,
-                "node0":{
-                  "nodeNode":{
-                    "point":"426 1155",
-                    "contour":"contour.177",
-                    "index":25,
-                    "element":"element.104"
-                  }
-                },
+                "position":1155,
                 "thickness":150,
                 "nodeThickness":{
                   "nodeNode":{
                     "point":"446 1305",
                     "contour":"contour.177",
-                    "index":36,
+                    "index":6,
                     "element":"element.104"
                   }
                 }
@@ -20283,61 +20460,97 @@
               },
               {
                 "horizontal":true,
-                "node0":{
-                  "nodeNode":{
-                    "point":"239 -236",
-                    "contour":"contour.177",
-                    "index":6,
-                    "element":"element.104"
-                  }
-                },
+                "position":-236,
                 "thickness":21
               },
               {
                 "horizontal":true,
-                "node0":{
-                  "nodeNode":{
-                    "point":"616 1495",
-                    "contour":"contour.177",
-                    "index":34,
-                    "element":"element.104"
-                  }
-                },
+                "position":1495,
                 "thickness":-20
               }
             ],
             "color":"#fe4a46",
             "tth":[
-              "alignv av01 round",
-              "alignv av02 round",
-              "alignv av03 round",
               "alignv av04 round",
-              "alignv av05 round",
-              "doublev dv01, dv02 .round",
-              "doublev dv03, dv04 .round",
-              "mdeltav av05 23-23 8",
-              "mdeltav av05 34-34 8",
-              "mdeltav av05 36-36 8",
-              "mdeltav av05 32-32 8",
-              "mdeltav av05 21-21 8",
-              "mdeltav av05 12-12 8",
-              "singlev av05, sv02 .none",
-              "singlev dv04, sv01 .none round",
-              "singlev av03, sv03 .none",
-              "alignh lsb round",
-              "alignh ah01 round",
-              "mdeltah ah01 22-23 3",
-              "mdeltah ah01 9-21 2",
-              "singleh ah01, sh01 .round",
-              "singleh lsb, sh02 .none round",
-              "singleh sh02, sh03 .round",
-              "mdeltah sh03 9-21 -2",
-              "mdeltah sh03 22-23 -3"
+              "alignv av08 round",
+              "alignv n56 round",
+              "doublev av03, dv02 .round",
+              "doublev iv03, dv04 .round",
+              "doublev av01, sv01 .round",
+              "mdeltav av01 39-39 -4",
+              "mdeltav av01 18-18 -3",
+              "mdeltav av01 20-21 -2",
+              "mdeltav av01 36-36 -2",
+              "mdeltav av01 34-34 1",
+              "mdeltav av01 19-19 2",
+              "mdeltav av01 14-14 3",
+              "mdeltav av01 38-38 3",
+              "mdeltav av01 41-41 5",
+              "mdeltav av01 35-35 6",
+              "mdeltav av01 24-28 5",
+              "mdeltav av01 22-22 3",
+              "mdeltav av01 42-42 2",
+              "mdeltav av01 11-11 2",
+              "mdeltav av01 13-13 -1",
+              "mdeltav av01 29-29 -2",
+              "mdeltav av01 12-12 -2",
+              "mdeltav av01 9-10 -3",
+              "mdeltav av01 33-33 -4",
+              "mdeltav av01 30-30 -5",
+              "singlev av01, av02 .none",
+              "mdeltav dv02 20-21 -8",
+              "mdeltav dv02 39-40 -8",
+              "mdeltav dv02 24-24 8",
+              "mdeltav dv02 34-34 8",
+              "mdeltav dv02 28-28 -8",
+              "mdeltav dv02 17-17 -8",
+              "mdeltav dv02 10-10 -8",
+              "singlev dv02, av07 .none",
+              "mdeltav av03 10-10 -8",
+              "mdeltav av03 21-21 -8",
+              "mdeltav av03 24-24 8",
+              "mdeltav av03 17-17 -8",
+              "mdeltav av03 39-40 -8",
+              "mdeltav av03 28-28 -8",
+              "singlev av03, av05 .none",
+              "mdeltav sv01 12-12 -3",
+              "mdeltav sv01 36-36 -3",
+              "mdeltav sv01 13-13 -2",
+              "mdeltav sv01 33-33 -2",
+              "mdeltav sv01 14-14 1",
+              "mdeltav sv01 38-38 1",
+              "mdeltav sv01 31-32 2",
+              "mdeltav sv01 34-34 2",
+              "mdeltav sv01 25-25 3",
+              "mdeltav sv01 24-24 4",
+              "mdeltav sv01 35-35 6",
+              "mdeltav sv01 19-19 5",
+              "mdeltav sv01 22-22 4",
+              "mdeltav sv01 11-11 2",
+              "mdeltav sv01 42-42 2",
+              "mdeltav sv01 41-41 1",
+              "mdeltav sv01 18-18 1",
+              "mdeltav sv01 37-37 -2",
+              "mdeltav sv01 30-30 -2",
+              "mdeltav sv01 9-10 -2",
+              "mdeltav sv01 15-17 -3",
+              "mdeltav sv01 29-29 -5",
+              "mdeltav sv01 39-40 -7",
+              "singlev sv01, dv03 .none",
+              "mdeltav iv03 34-34 -8",
+              "singlev iv03, dv05 .none",
+              "mdeltav n56 23-23 8",
+              "mdeltav n56 34-34 8",
+              "mdeltav n56 36-36 8",
+              "mdeltav n56 32-32 8",
+              "mdeltav n56 21-21 8",
+              "mdeltav n56 12-12 8",
+              "singlev n56, n55 .none",
+              "singlev dv04, dv06 .none"
             ],
             "active":true
           }
-        ],
-        "note":"Less complete\nDollar incomplete"
+        ]
       },
       {
         "name":"less_equal_end.seq",
@@ -32447,16 +32660,6 @@
           "hintingParameters":{
           },
           "kerning":{
-          },
-          "measurements":{
-            "ItalicAngle":"0",
-            "Tension":"62",
-            "Ascender":"1521",
-            "Descender":"-527",
-            "CapsHeight":"1307",
-            "XHeight":"1004",
-            "UT":"144",
-            "UP":"-266"
           }
         }
       },
@@ -32524,16 +32727,6 @@
           "hintingParameters":{
           },
           "kerning":{
-          },
-          "measurements":{
-            "ItalicAngle":"0",
-            "Tension":"63",
-            "Ascender":"1521",
-            "Descender":"-527",
-            "CapsHeight":"1307",
-            "XHeight":"1016",
-            "UT":"194",
-            "UP":"-217"
           }
         }
       },
@@ -32603,16 +32796,6 @@
           "hintingParameters":{
           },
           "kerning":{
-          },
-          "measurements":{
-            "ItalicAngle":"-11",
-            "Tension":"65",
-            "Ascender":"1521",
-            "Descender":"-527",
-            "CapsHeight":"1307",
-            "XHeight":"1004",
-            "UT":"144",
-            "UP":"-266"
           }
         }
       },
@@ -32683,16 +32866,6 @@
           "hintingParameters":{
           },
           "kerning":{
-          },
-          "measurements":{
-            "ItalicAngle":"-11",
-            "Tension":"65",
-            "Ascender":"1521",
-            "Descender":"-527",
-            "CapsHeight":"1307",
-            "XHeight":"1016",
-            "UT":"194",
-            "UP":"-217"
           }
         }
       }
