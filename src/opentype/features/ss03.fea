@@ -1,0 +1,4 @@
+# Name: Alternate Ampersand
+sub ampersand by ampersand1.salt;
+sub ampersand.before' ampersand1.salt by ampersand.spacer.ss03;
+sub ampersand.spacer.ss03 ampersand1.salt' by ampersand_ampersand.liga.ss03;
