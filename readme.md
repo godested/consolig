@@ -24,7 +24,7 @@ Because Consolas cannot be redistributed, this project provides the tools to app
 ## How to use
 
 Check out the information about enabling ligatures provided by [FiraCode](https://github.com/tonsky/FiraCode) here:
-[https://github.com/tonsky/FiraCode/wiki#how-to-enable-ligatures][https://github.com/tonsky/firacode/wiki#how-to-enable-ligatures]
+[https://github.com/tonsky/FiraCode/wiki#how-to-enable-ligatures](https://github.com/tonsky/firacode/wiki#how-to-enable-ligatures)
 
 This version of Consolig is comparable to version **5.2** of [FiraCode](https://github.com/tonsky/FiraCode). Consolig now does everything FiraCode can do, with the exception of their **Console UI** and **Math** features (yes, I know you guys want Powerline -- it's coming). However, that _does_ mean that Consolig now has **Alternative glyph styles**.
 
