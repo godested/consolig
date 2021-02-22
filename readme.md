@@ -21,6 +21,24 @@ Because Consolas cannot be redistributed, this project provides the tools to app
    `python build.py`
 5. If everything goes well, you should now have Consolig font files in your `/build` directory.
 
+## How to use
+
+Check out the information about enabling ligatures provided by [FiraCode](https://github.com/tonsky/FiraCode) here:
+[https://github.com/tonsky/FiraCode/wiki#how-to-enable-ligatures][https://github.com/tonsky/firacode/wiki#how-to-enable-ligatures]
+
+This version of Consolig is comparable to version **5.2** of [FiraCode](https://github.com/tonsky/FiraCode). Consolig now does everything FiraCode can do, with the exception of their **Console UI** and **Math** features (yes, I know you guys want Powerline -- it's coming). However, that _does_ mean that Consolig now has **Alternative glyph styles**.
+
+- `ss01` adds a bottom serif to lowercase R and lowercase F
+- `ss02` gives `<=` and `>=` a horizontal bottom bar (default is angled)
+- `ss03` swaps the traditional Consolas ampersand for a programming alternate
+- `ss04` removes the middle bar from the traditional Consolas dollar sign
+- `ss05` swaps the traditional Consolas "at symbol" for a version with a partial loop
+- `ss06` enables a thin backslash for escape characters
+- `ss07` enables regexp matching
+- `ss08` enables alternate double/triple equals with gaps (versus the triple bar)
+- `zero` enables a dotted zero
+- `onum` enables old-style numeric glyphs
+
 ## Credits
 
-- Glyph substitution logic was taken from [Cascadia Code](https://github.com/microsoft/cascadia-code).
+- Glyph substitution logic was taken from [FiraCode](https://github.com/tonsky/FiraCode).
