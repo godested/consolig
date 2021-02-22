@@ -4,7 +4,7 @@ Consolig is a version of Consolas that supports ligatures. Unlike other efforts,
 
 Because Consolas cannot be redistributed, this project provides the tools to append the ligature glyphs and features to your personal copy of Consolas, generating a copy of Consolig.
 
-**NOTE: For the pre-release, all font styles use the same ligature glyphs. Making style-specific glyphs is my next goal.**
+**NOTE: Currently, all font styles use the same ligature glyphs. Making style-specific glyphs is on the roadmap.**
 
 ## How to build
 
