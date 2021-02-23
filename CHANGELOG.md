@@ -1,3 +1,10 @@
+# [0.6.0](https://github.com/ofolis/consolig/compare/v0.5.2...v0.6.0) (2021-02-23)
+
+
+### Features
+
+* powerline support ([79302b0](https://github.com/ofolis/consolig/commit/79302b0fd6a1283cdee14fcb4f843db8318ea979))
+
 ## [0.5.2](https://github.com/ofolis/consolig/compare/v0.5.1...v0.5.2) (2021-02-23)
 
 
