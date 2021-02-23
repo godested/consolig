@@ -260,11 +260,13 @@ if __name__ == '__main__':
                 glyph_id_map = json.load(file)
             glyph_id_map_keys = sorted(glyph_id_map.keys(), reverse=True)
             for glyph_name in glyph_id_map_keys:
-                if re.search(rf'(^|\s|\{{|\[|\\)({glyph_name})(\s|\}}|\]|\'|\;|$)', final_string) is not None:
+                regex = rf'(^|\s|\{{|\[|\\)({glyph_name})(\s|\}}|\]|\'|\;|$)'
+                if re.search(regex, final_string) is not None:
                     glyph_id = glyph_id_map[glyph_name]
                     new_glyph_name = input_font.getGlyphName(glyph_id)
-                    #print(f'    Replacing "{glyph_name}" with "{new_glyph_name}"')
-                    final_string = re.sub(rf'(^|\s|\{{|\[|\\)({glyph_name})(\s|\}}|\]|\'|\;|$)', f'\g<1>{new_glyph_name}\g<3>', final_string)
+                    # Run twice for instances that are sandwiched between two other instances
+                    for i in range(2):
+                        final_string = re.sub(regex, f'\g<1>{new_glyph_name}\g<3>', final_string)
             with open(Path(TEMP_DIR / 'features.fea'), 'w') as features_file:
                 features_file.write(final_string)
             # Set up substitution functionality
