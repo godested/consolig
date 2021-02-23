@@ -1,3 +1,10 @@
+## [0.5.2](https://github.com/ofolis/consolig/compare/v0.5.1...v0.5.2) (2021-02-23)
+
+
+### Bug Fixes
+
+* changed default ampersand and greater/less equals ([ced2979](https://github.com/ofolis/consolig/commit/ced2979697c80f691c1f12fdccc1a6ccf5841de3))
+
 ## [0.5.1](https://github.com/ofolis/consolig/compare/v0.5.0...v0.5.1) (2021-02-23)
 
 
