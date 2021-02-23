@@ -1,3 +1,10 @@
+## [0.5.1](https://github.com/ofolis/consolig/compare/v0.5.0...v0.5.1) (2021-02-23)
+
+
+### Bug Fixes
+
+* removed LIGA feature ([03ac20e](https://github.com/ofolis/consolig/commit/03ac20e1b630f94724cb5909773d0bf9e19d0dcf))
+
 # [0.5.0](https://github.com/ofolis/consolig/compare/v0.4.0...v0.5.0) (2021-02-22)
 
 
