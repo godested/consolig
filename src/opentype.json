@@ -1,0 +1,37 @@
+{
+    "classes": [
+        "uppercase.fea",
+        "lowercase.fea",
+        "opening-bracket.fea",
+        "closing-bracket.fea",
+        "digit.fea",
+        "digit-onum.fea",
+        "hex-digit.fea",
+        "tall.fea",
+        "greek-uc.fea",
+        "greek-uc-acc.fea",
+        "greek-uc-diph-iota.fea",
+        "greek-uc-diph-upsilon.fea",
+        "greek-uc-calt.fea"
+    ],
+    "features": [
+        "subs.fea",
+        "sups.fea",
+        "numr.fea",
+        "dnom.fea",
+        "frac.fea",
+        "ordn.fea",
+        "onum.fea",
+        "zero.fea",
+        "calt.fea",
+        "ss01.fea",
+        "ss02.fea",
+        "ss03.fea",
+        "ss04.fea",
+        "ss05.fea",
+        "ss06.fea",
+        "ss07.fea",
+        "sinf.fea",
+        "ss08.fea"
+    ]
+}
