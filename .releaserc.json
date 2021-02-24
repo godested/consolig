@@ -4,7 +4,7 @@
         [
             "@semantic-release/exec",
             {
-                "prepareCmd": "echo ${nextRelease.version} > src/version.txt"
+                "prepareCmd": "./src/scripts/prepare-release.sh ${nextRelease.version}"
             }
         ],
         "@semantic-release/github",
