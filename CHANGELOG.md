@@ -1,3 +1,10 @@
+## [0.6.3](https://github.com/ofolis/consolig/compare/v0.6.2...v0.6.3) (2021-02-24)
+
+
+### Bug Fixes
+
+* fix release config ([63d3bec](https://github.com/ofolis/consolig/commit/63d3bec7adfbff116a3054850a09af4531148dcb))
+
 ## [0.6.2](https://github.com/ofolis/consolig/compare/v0.6.1...v0.6.2) (2021-02-24)
 
 
