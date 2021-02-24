@@ -1,3 +1,10 @@
+## [0.6.1](https://github.com/ofolis/consolig/compare/v0.6.0...v0.6.1) (2021-02-24)
+
+
+### Bug Fixes
+
+* write correct version in generated font ([b37095e](https://github.com/ofolis/consolig/commit/b37095ecc192149ee2f3f848e4d433991cf6d82a))
+
 # [0.6.0](https://github.com/ofolis/consolig/compare/v0.5.2...v0.6.0) (2021-02-23)
 
 
