@@ -1,3 +1,10 @@
+## [0.6.2](https://github.com/ofolis/consolig/compare/v0.6.1...v0.6.2) (2021-02-24)
+
+
+### Bug Fixes
+
+* fix for release prep functionality ([d5102e9](https://github.com/ofolis/consolig/commit/d5102e9e0f7ef2833f3c5786fbd387cd15312345))
+
 ## [0.6.1](https://github.com/ofolis/consolig/compare/v0.6.0...v0.6.1) (2021-02-24)
 
 
