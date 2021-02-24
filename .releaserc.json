@@ -1,6 +1,12 @@
 {
     "plugins": [
         "@semantic-release/commit-analyzer",
+        [
+            "@semantic-release/exec",
+            {
+                "prepareCmd": "echo ${nextRelease.version} > src/version.txt"
+            }
+        ],
         "@semantic-release/github",
         "@semantic-release/release-notes-generator"
     ],
@@ -9,7 +15,8 @@
         {
             "path": "@semantic-release/git",
             "assets": [
-                "CHANGELOG.md"
+                "CHANGELOG.md",
+                "src/version.txt"
             ],
             "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
         }

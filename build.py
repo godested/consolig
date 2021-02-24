@@ -6,6 +6,7 @@ from shutil import rmtree
 from xml.etree import ElementTree
 import json
 import re
+import subprocess
 
 # Directories
 CWD = Path(getcwd())
@@ -196,6 +197,19 @@ if __name__ == '__main__':
                 raise ValueError('Could not find "name" element in source XML')
             input_et.getroot().remove(input_name_element)
             input_et.getroot().append(source_name_element)
+            # Add current version
+            version_file = Path(SOURCE_DIR / 'version.txt')
+            with open(version_file, 'r') as file:
+                version_string = file.read().replace('\n', '').strip()
+            print(f'  Writing current version in font ({version_string})')
+            input_name_element = input_et.getroot().find('name')
+            for name_record_element in input_name_element.findall('namerecord'):
+                if name_record_element.attrib['nameID'] == "3":
+                    split_name_record_value = name_record_element.text.split(';')
+                    split_name_record_value[0] = version_string
+                    name_record_element.text = ';'.join(split_name_record_value)
+                elif name_record_element.attrib['nameID'] == "5":
+                    name_record_element.text = version_string
             # Add extraNames element
             print('  Adding glyph name definitions')
             input_post_element = input_et.getroot().find('post')
