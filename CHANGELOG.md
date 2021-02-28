@@ -1,3 +1,10 @@
+## [0.6.4](https://github.com/ofolis/consolig/compare/v0.6.3...v0.6.4) (2021-02-28)
+
+
+### Bug Fixes
+
+* fixed /> ligature alignment ([dc783c3](https://github.com/ofolis/consolig/commit/dc783c34a406fa2de3d8a1e891d75d15640d52de)), closes [#22](https://github.com/ofolis/consolig/issues/22)
+
 ## [0.6.3](https://github.com/ofolis/consolig/compare/v0.6.2...v0.6.3) (2021-02-24)
 
 
