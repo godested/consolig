@@ -1,7 +1,7 @@
 {
   "version":8,
   "font":{
-    "glyphsCount":220,
+    "glyphsCount":218,
     "upm":2048,
     "glyphs":[
       {
@@ -9,11 +9,6 @@
         "lastModified":"2021-01-30 17:11:38",
         "colorFlag":121,
         "advanceWidth":512
-      },
-      {
-        "name":"NULL",
-        "unicode":"0000",
-        "lastModified":"2021-02-23 00:11:43"
       },
       {
         "name":"CR",
@@ -24,14 +19,8 @@
         "advanceWidth":512
       },
       {
-        "name":"space",
-        "unicode":"0020",
-        "lastModified":"2021-02-23 00:11:43",
-        "advanceWidth":512
-      },
-      {
         "name":"ampersand_ampersand.liga.ss03",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
@@ -1709,7 +1698,7 @@
       },
       {
         "name":"ampersand.spacer.ss03",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
@@ -1746,7 +1735,7 @@
       },
       {
         "name":"asciicircum_equal.liga",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
@@ -2276,7 +2265,7 @@
       },
       {
         "name":"asciicircum.spacer",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
@@ -2313,7 +2302,7 @@
       },
       {
         "name":"asciitilde_asciitilde_greater.liga",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
@@ -3015,7 +3004,7 @@
       },
       {
         "name":"asciitilde_asciitilde.liga",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
@@ -3749,7 +3738,7 @@
       },
       {
         "name":"asciitilde_at.liga",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
@@ -4347,7 +4336,7 @@
       },
       {
         "name":"asciitilde_greater.liga",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
@@ -5065,7 +5054,7 @@
       },
       {
         "name":"asciitilde_hyphen.liga",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
@@ -5703,7 +5692,7 @@
       },
       {
         "name":"asciitilde.spacer",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
@@ -5740,7 +5729,7 @@
       },
       {
         "name":"asterisk_asterisk_asterisk.liga",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
@@ -6398,7 +6387,7 @@
       },
       {
         "name":"asterisk_asterisk.liga",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
@@ -6900,7 +6889,7 @@
       },
       {
         "name":"asterisk_greater.liga",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
@@ -7222,7 +7211,7 @@
       },
       {
         "name":"asterisk_slash.liga",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
@@ -7608,7 +7597,7 @@
       },
       {
         "name":"asterisk.lc",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
@@ -7938,7 +7927,7 @@
       },
       {
         "name":"asterisk.spacer",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
@@ -7975,7 +7964,7 @@
       },
       {
         "name":"backslash_slash.liga",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
@@ -8225,7 +8214,7 @@
       },
       {
         "name":"backslash.spacer",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
@@ -8262,7 +8251,7 @@
       },
       {
         "name":"backslash.ss06",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
@@ -8504,7 +8493,7 @@
       },
       {
         "name":"bar_bar_bar_greater.liga",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
@@ -9122,7 +9111,7 @@
       },
       {
         "name":"bar_bar_bar.liga",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
@@ -9736,7 +9725,7 @@
       },
       {
         "name":"bar_bar_equal_end.seq",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
@@ -10498,7 +10487,7 @@
       },
       {
         "name":"bar_bar_equal_middle.seq",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
@@ -11316,7 +11305,7 @@
       },
       {
         "name":"bar_bar_equal_start.seq",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
@@ -12078,7 +12067,7 @@
       },
       {
         "name":"bar_bar_greater.liga",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
@@ -12464,7 +12453,7 @@
       },
       {
         "name":"bar_bar_hyphen_end.seq",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
@@ -13050,7 +13039,7 @@
       },
       {
         "name":"bar_bar_hyphen_middle.seq",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
@@ -13664,7 +13653,7 @@
       },
       {
         "name":"bar_bar_hyphen_start.seq",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
@@ -14250,7 +14239,7 @@
       },
       {
         "name":"bar_bar.liga",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
@@ -14712,7 +14701,7 @@
       },
       {
         "name":"bar_braceright.liga",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
@@ -15578,7 +15567,7 @@
       },
       {
         "name":"bar_bracketright.liga",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
@@ -16164,7 +16153,7 @@
       },
       {
         "name":"bar_equal_end.seq",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
@@ -16786,7 +16775,7 @@
       },
       {
         "name":"bar_equal_middle.seq",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
@@ -17464,7 +17453,7 @@
       },
       {
         "name":"bar_equal_start.seq",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
@@ -18086,7 +18075,7 @@
       },
       {
         "name":"bar_greater.liga",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
@@ -18332,7 +18321,7 @@
       },
       {
         "name":"bar_hyphen_end.seq",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
@@ -18778,7 +18767,7 @@
       },
       {
         "name":"bar_hyphen_middle.seq",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
@@ -19252,7 +19241,7 @@
       },
       {
         "name":"bar_hyphen_start.seq",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
@@ -19698,7 +19687,7 @@
       },
       {
         "name":"bar_underscore_middle.seq",
-        "lastModified":"2021-02-23 05:10:39",
+        "lastModified":"2021-02-28 21:39:47",
         "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
@@ -103627,7 +103616,7 @@
       },
       {
         "name":"slash_greater.liga",
-        "lastModified":"2021-02-22 04:11:29",
+        "lastModified":"2021-02-28 21:39:57",
         "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
@@ -103644,19 +103633,20 @@
                     {
                       "id":"contour.996",
                       "nodes":[
-                        "486 -215 {n:'av01'}",
-                        "1084.3 1204.92 {n:'iv01'}",
-                        "1880 543 {n:'sv01'}",
-                        "1335 94 {n:'sv02'}",
-                        "1443 -16 {n:'av04'}",
-                        "2115 545 {n:'av03'}",
-                        "1146.55 1352.65 {n:'av02'}",
-                        "980.55 1352.65",
-                        "320 -215"
+                        "-640 -215 {n:'av01'}",
+                        "-41.7 1204.92 {n:'iv01'}",
+                        "754 543 {n:'sv01'}",
+                        "209 94 {n:'sv02'}",
+                        "317 -16 {n:'av04'}",
+                        "989 545 {n:'av03'}",
+                        "20.55 1352.65 {n:'av02'}",
+                        "-145.45 1352.65",
+                        "-806 -215"
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -103664,7 +103654,7 @@
                 "horizontal":true,
                 "node0":{
                   "nodeNode":{
-                    "point":"1146.55 1352.65",
+                    "point":"20.55 1352.65",
                     "contour":"contour.996",
                     "index":6,
                     "element":"element.613"
@@ -103676,7 +103666,7 @@
                 "horizontal":true,
                 "node0":{
                   "nodeNode":{
-                    "point":"486 -215",
+                    "point":"-640 -215",
                     "contour":"contour.996",
                     "index":0,
                     "element":"element.613"
@@ -103721,15 +103711,15 @@
                     {
                       "id":"contour.997",
                       "nodes":[
-                        "486 -215 {n:'av01'}",
-                        "1084.3 1204.92 {n:'iv01'}",
-                        "1880 543 {n:'sv01'}",
-                        "1335 94 {n:'sv02'}",
-                        "1443 -16 {n:'av04'}",
-                        "2115 545 {n:'av03'}",
-                        "1146.55 1352.65 {n:'av02'}",
-                        "980.55 1352.65",
-                        "320 -215"
+                        "-640 -215 {n:'av01'}",
+                        "-41.7 1204.92 {n:'iv01'}",
+                        "754 543 {n:'sv01'}",
+                        "209 94 {n:'sv02'}",
+                        "317 -16 {n:'av04'}",
+                        "989 545 {n:'av03'}",
+                        "20.55 1352.65 {n:'av02'}",
+                        "-145.45 1352.65",
+                        "-806 -215"
                       ]
                     }
                   ]
@@ -103741,7 +103731,7 @@
                 "horizontal":true,
                 "node0":{
                   "nodeNode":{
-                    "point":"1146.55 1352.65",
+                    "point":"20.55 1352.65",
                     "contour":"contour.997",
                     "index":6,
                     "element":"element.614"
@@ -103753,7 +103743,7 @@
                 "horizontal":true,
                 "node0":{
                   "nodeNode":{
-                    "point":"486 -215",
+                    "point":"-640 -215",
                     "contour":"contour.997",
                     "index":0,
                     "element":"element.614"
@@ -103798,15 +103788,15 @@
                     {
                       "id":"contour.998",
                       "nodes":[
-                        "486 -215 {n:'av01'}",
-                        "1084.3 1204.92 {n:'iv01'}",
-                        "1880 543 {n:'sv01'}",
-                        "1335 94 {n:'sv02'}",
-                        "1443 -16 {n:'av04'}",
-                        "2115 545 {n:'av03'}",
-                        "1146.55 1352.65 {n:'av02'}",
-                        "980.55 1352.65",
-                        "320 -215"
+                        "-640 -215 {n:'av01'}",
+                        "-41.7 1204.92 {n:'iv01'}",
+                        "754 543 {n:'sv01'}",
+                        "209 94 {n:'sv02'}",
+                        "317 -16 {n:'av04'}",
+                        "989 545 {n:'av03'}",
+                        "20.55 1352.65 {n:'av02'}",
+                        "-145.45 1352.65",
+                        "-806 -215"
                       ]
                     }
                   ]
@@ -103818,7 +103808,7 @@
                 "horizontal":true,
                 "node0":{
                   "nodeNode":{
-                    "point":"1146.55 1352.65",
+                    "point":"20.55 1352.65",
                     "contour":"contour.998",
                     "index":6,
                     "element":"element.615"
@@ -103830,7 +103820,7 @@
                 "horizontal":true,
                 "node0":{
                   "nodeNode":{
-                    "point":"486 -215",
+                    "point":"-640 -215",
                     "contour":"contour.998",
                     "index":0,
                     "element":"element.615"
@@ -103875,20 +103865,19 @@
                     {
                       "id":"contour.999",
                       "nodes":[
-                        "486 -215 {n:'av01'}",
-                        "1084.3 1204.92 {n:'iv01'}",
-                        "1880 543 {n:'sv01'}",
-                        "1335 94 {n:'sv02'}",
-                        "1443 -16 {n:'av04'}",
-                        "2115 545 {n:'av03'}",
-                        "1146.55 1352.65 {n:'av02'}",
-                        "980.55 1352.65",
-                        "320 -215"
+                        "-640 -215 {n:'av01'}",
+                        "-41.7 1204.92 {n:'iv01'}",
+                        "754 543 {n:'sv01'}",
+                        "209 94 {n:'sv02'}",
+                        "317 -16 {n:'av04'}",
+                        "989 545 {n:'av03'}",
+                        "20.55 1352.65 {n:'av02'}",
+                        "-145.45 1352.65",
+                        "-806 -215"
                       ]
                     }
                   ]
-                },
-                "active":true
+                }
               }
             ],
             "hints":[
@@ -103896,7 +103885,7 @@
                 "horizontal":true,
                 "node0":{
                   "nodeNode":{
-                    "point":"1146.55 1352.65",
+                    "point":"20.55 1352.65",
                     "contour":"contour.999",
                     "index":6,
                     "element":"element.616"
@@ -103908,7 +103897,7 @@
                 "horizontal":true,
                 "node0":{
                   "nodeNode":{
-                    "point":"486 -215",
+                    "point":"-640 -215",
                     "contour":"contour.999",
                     "index":0,
                     "element":"element.616"
@@ -108834,6 +108823,7 @@
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "elements":[
@@ -108903,6 +108893,7 @@
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "elements":[
@@ -108972,6 +108963,7 @@
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "elements":[
@@ -109122,6 +109114,7 @@
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "elements":[
@@ -109180,6 +109173,7 @@
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "elements":[
@@ -109238,6 +109232,7 @@
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "elements":[
@@ -109366,6 +109361,7 @@
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "elements":[
@@ -109489,6 +109485,7 @@
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "elements":[
@@ -109612,6 +109609,7 @@
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "elements":[
@@ -109870,6 +109868,7 @@
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "elements":[
@@ -109898,6 +109897,7 @@
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "elements":[
@@ -109926,6 +109926,7 @@
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "elements":[
@@ -109994,6 +109995,7 @@
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "elements":[
@@ -110023,6 +110025,7 @@
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "elements":[
@@ -110052,6 +110055,7 @@
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "elements":[
@@ -110122,6 +110126,7 @@
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "elements":[
@@ -110150,6 +110155,7 @@
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "elements":[
@@ -110178,6 +110184,7 @@
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "elements":[
@@ -110246,6 +110253,7 @@
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "elements":[
@@ -110275,6 +110283,7 @@
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "elements":[
@@ -110304,6 +110313,7 @@
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "elements":[
