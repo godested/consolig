@@ -8,8 +8,12 @@ jobs:
         with:
           python-version: "3.8"
           cache: "pip" # caching pip dependencies
-      - run: pip install fontTools
+      - run: pip install -r requirements.txt
       - run: python build.py
+      - uses: actions/upload-artifact@v3
+        with:
+          name: DD
+          path: distr
 name: Main Commit
 on:
   push:
